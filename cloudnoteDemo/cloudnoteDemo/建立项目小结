@@ -1,0 +1,8 @@
+1.项目的是后要指定classes文件
+在Navigator模式下才能看到classes文件夹
+如果没有在Navigator模式下在WEB-INF下创建classes文件
+2.在packageExplorer模式下
+项目下build_path --configure_build_path中resource中设置编译后的class文件存放的路径
+
+
+一般出现编译后的classes文件找不到或者不在指定文件夹中的问题，都可以通过以上的方式来解决
