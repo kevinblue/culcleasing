@@ -1,0 +1,15 @@
+sysUpgradeRepair=close
+configLogonPath=d\:/culclogs/logon/
+configOperPath=d\:/culclogs/oper/
+invoiceOperPath=d\:/culclogs/invoiceoper/
+configOperErrorPath=d\:/culclogs/error/
+repairPath=\\sysUpgradeRepair.htm
+outlog=open
+errorlog=open
+sqllog=open
+logFilePath=d\:/culclogs/logfile/
+#test timer #
+logTestTimer=d\:/culclogs/logtimer/ 
+### Filter Path ####
+
+

@@ -1,0 +1,19 @@
+acquireIncrement=5
+checkoutTimeout=100
+idleConnectionTestPeriod=60
+initialPoolSize=5
+maxIdleTime=60
+maxPoolSize=15
+maxStatements=50
+
+############################### Client Server 1 Config###############################
+client1.driverClass=com.microsoft.sqlserver.jdbc.SQLServerDriver
+client1.url=jdbc:sqlserver://192.168.104.64:1433;databasename=culcCRM3
+client1.user=crm
+client1.password=crm
+
+############################### Client Server 2 Config###############################
+
+############################### Client Server 3 Config ##############################
+
+

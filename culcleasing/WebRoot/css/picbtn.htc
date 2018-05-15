@@ -1,0 +1,42 @@
+<attach event="onmouseover" onevent="over()"/>
+<attach event="onmouseout" onevent="out()"/>
+<attach event="onmousedown" onevent="down()"/>
+<attach event="onmouseup" onevent="up()"/>
+<attach event="onfocus" onevent="myfocus()"/>
+<script language="Javascript">
+
+function over(){
+if(this.src.search("_over.gif")<0){
+	this.src=this.src.replace(/(.gif)/g,"_over.gif");
+}
+}
+function up(){
+	if(this.src.search("_down.gif")<0){
+		this.src=this.src.replace(/(_over.gif)/g,".gif");
+	}else{
+		this.src=this.src.replace(/(_down.gif)/g,"_over.gif");
+	}
+}
+function out(){
+	if(this.src.search("_down.gif")<0){
+		this.src=this.src.replace(/(_over.gif)/g,".gif");
+	}else{
+		this.src=this.src.replace(/(_down.gif)/g,".gif");
+	}
+}
+
+function down(){
+
+	if(this.src.search("_over.gif")<0){
+			this.src=this.src.replace(/(.gif)/g,"_down.gif");
+	}else{
+		this.src=this.src.replace(/(_over.gif)/g,"_down.gif");
+	}
+}
+
+
+function myfocus(){
+	blur()
+}
+</script>
+ 

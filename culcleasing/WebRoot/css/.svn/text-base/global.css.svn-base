@@ -1,0 +1,739 @@
+@charset "gb2312";
+/**********************/
+/*   05.011
+/*   最后修改日期 05.05.27
+/**********************/
+
+
+/**************基本样式****************/
+body{
+
+	margin:0px;
+	padding:3px;
+/*	
+	 SCROLLBAR-FACE-COLOR: #E5E5D8;
+   SCROLLBAR-HIGHLIGHT-COLOR: #ffffff;
+	 SCROLLBAR-SHADOW-COLOR: #c8d0d2;
+	 SCROLLBAR-3DLIGHT-COLOR: #c8d0d2;
+	 SCROLLBAR-ARROW-COLOR: #000000;
+	 SCROLLBAR-TRACK-COLOR: #E1DFD5;
+	 SCROLLBAR-DARKSHADOW-COLOR: #ffffff;
+	 SCROLLBAR-BASE-COLOR: #ffffff
+	 */
+}
+
+a {text-decoration:none;color:#154288}
+a:hover {text-decoration:underline;}
+a.fontcolor {color:#154288}
+a:hover.fontcolor {color:#154288;text-decoration:underline;}
+/*
+A{
+	COLOR: #154288;
+	CURSOR: hand;
+	FONT-STYLE: normal;
+	TEXT-DECORATION: none;
+}
+A:visited {
+	COLOR: #666699; 
+}
+A:active {
+	COLOR: #0000CC;
+	FONT-STYLE: normal;
+	TEXT-DECORATION: underline;
+}
+A:hover {
+	COLOR: #0000CC;
+	FONT-STYLE: normal;
+	TEXT-DECORATION: underline;
+}
+*/
+
+.hidden{
+ display:none;
+}
+
+/********* cwMain ***********/
+
+
+#cwMain{
+	width:100%;
+	background-color:#F5F2F5;
+	border:solid 1px #cccccc; 
+
+} 
+
+#cwMain1{
+	width:100%;
+	background-color:#F5F2F5;
+
+} 
+
+#cwMain2{
+	width:100%;
+	margin-top:12px;
+	text-align:left;cursor:hand;
+	background-color:#D4E6F6;
+	
+	
+
+} 
+
+
+/********* cwTop ***********/
+#cwTop{
+	width:100%;
+	background-image: url(../images/cap_bakg2.gif);
+	background-repeat: repeat-x; 
+}
+#cwTopTit{
+	background-image:url(../images/cap_bakg1.gif);
+	background-repeat:repeat-x; 
+	width:200px;
+} 
+#cwTopTitLeft{
+	background-image:url(../images/cap_left.gif); 
+	background-repeat:no-repeat;
+	width:18px;
+	height:15px;
+}
+#cwTopTitTxt{
+	font-size:1.0em;
+	padding-top:3px;
+}
+#cwTopTitRight{
+	background-image:url(../images/cap_cent.gif);
+	background-repeat:no-repeat;
+	width:23px;
+	height:22px;
+}
+
+
+
+
+
+
+/********* cwCell ***********/
+
+#cwCell{
+	width:100% ;
+	height:200px;
+	background-color:#EEEAEE;
+	border:solid 1px #cccccc;
+	margin:15px 15px 15px 15px;
+}
+#cwCell1{
+	width:100% ;
+	height:200px;
+	background-color:#EEEAEE;
+	border:solid 1px #cccccc;
+	margin:0px;
+}
+/* cwCellTop */
+#cwCellTop{
+	width:100%;
+	background-image: url(../images/top_bakg.gif);
+	background-repeat: repeat-x; 
+}
+
+
+#cwCellTopTit{
+	background-image:url(../images/tit_bakg.gif);
+	background-repeat:repeat-x;
+	width:200px;
+}
+
+#cwCellTopTitLeft{
+	background-image:url(../images/icon_sq_ye.gif); 
+	background-repeat:no-repeat;
+	background-position:center;
+	width:20px;
+	height:15px;
+}
+#cwCellTopTitTxt{
+	font-size:1.0em;
+	padding-top:3px;
+}
+#cwCellTopTitRight{
+	background-image:url(../images/tit_r.gif);
+	background-repeat:no-repeat;
+	width:15px;
+	height:21px;
+}
+
+
+/* cwCellToolbar */
+#cwCellToolbar{
+	position:relative;
+	top:-5px;
+	margin-right:5px;
+	float:right;
+	font-size:0.75em;
+	height:30px;
+}
+#cwCellToolbar a{
+text-decoration:none;
+color:#333333;
+behavior:url(/iulcleasing/css/hotkey.htc);
+}
+
+/**********************cwTabBar*************************/
+
+#cwTabBar{
+height:25px;background-image:url(../images/tab_l.gif); margin:0px 15px 0px 15px; clear:both;font-size:0.75em;	
+}
+#cwTabBar a{
+	display:block;position:relative;
+	COLOR: #666699; 
+	TEXT-DECORATION: none;padding:6px 7px 0px 15px;
+}
+
+#cwTabBar A:active {
+	COLOR: #333399;
+}
+#cwTabBar A:hover {
+	COLOR: #333399;
+
+}
+
+
+
+#cwTab_l_l{
+float:left;background-image:url(../images/tab_l_l.gif);width:7px;height:25px;
+}
+.cwTab_a{
+
+float:left;background-image:url(../images/tab_a.gif);height:25px; text-align:center; background-repeat:no-repeat
+}
+.cwTab_b{
+float:left;background-image:url(../images/tab_b.gif);width:10px;height:25px 
+}
+.cwTab_a_o{
+float:left;background-image:url(../images/tab_a_o.gif);height:25px; text-align:center;background-repeat:no-repeat
+}
+#cwTabBar .cwTab_a_o a{
+	COLOR: #333399;  padding-top:5px;
+}
+.cwTab_b_o{
+float:left;background-image:url(../images/tab_b_o.gif);width:10px;height:25px
+}
+#cwTab_l_r{
+float:right;background-image:url(../images/tab_l_r.gif);width:7px;height:25px 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/**********************cwBtnBar*************************/
+
+#cwBtnBar{
+height:30px;margin:0px 15px 0px 15px; clear:both;font-size:0.75em;	
+}
+#cwBtnBar a{
+	display:block;position:relative;
+	COLOR: #666699; 
+	TEXT-DECORATION: none;
+	padding:5px 2px 0px 18px;
+	background-image:url(../images/icon_o.gif);
+	background-repeat:no-repeat;
+	background-position:5px 7px;
+
+}
+
+#cwBtnBar A:active {
+	COLOR: #333399;
+}
+#cwBtnBar A:hover {
+	COLOR: #333399;
+
+}
+
+#cwBtn{
+float:left;
+}
+#cwBtn_l_l{
+float:left;background-image:url(../images/btn_l_l.gif);width:7px;height:25px;
+}
+.cwBtn_a{
+float:left;
+background-image:url(../images/btn_a.gif);height:25px; text-align:center; background-repeat:no-repeat;
+}
+.cwBtn_b{float:left;
+background-image:url(../images/btn_b.gif);width:9px;height:25px;margin-right:5px;background-repeat:no-repeat;
+}
+.cwBtn_a_o{float:left;
+background-image:url(../images/btn_a_o.gif);height:25px; text-align:center;background-repeat:no-repeat;
+}
+#cwBtnBar .cwBtn_a_o a{
+	COLOR: #333399;  padding-top:5px;
+}
+.cwBtn_b_o{float:left;
+background-image:url(../images/btn_b_o.gif);width:9px;height:25px;background-repeat:no-repeat;
+}
+#cwBtn_l_r{float:left;
+background-image:url(../images/btn_l_r.gif);width:7px;height:25px ;
+}
+
+
+
+
+
+
+
+
+
+/************************ expTable ************************/
+
+.tabtit{
+	height:25px;background-color:#8C91AE;
+	cursor:hand;
+	color:#ffffff;
+	font-size:0.75em;
+	font-weight:bold;
+  border:solid 1px #ffffff;
+  border-bottom:solid 1px  #444862;
+  background-image:url(../images/expttbakg.gif);
+  padding:5px 15px 0px 10px;
+}
+
+.tabtitExp{
+		margin-top:20px;
+	background-color:#D4E6F6;
+	cursor:hand;
+	font-size:1.1em;
+	font-weight:bold;
+  padding:5px 15px 0px 10px;
+}
+
+
+.tabtit .icon{
+	float:left;
+	width:15px;
+  background-image:url(../images/icon_exp_a.gif);
+	background-repeat:no-repeat;
+	background-position:0px 1px;
+}
+
+.tabtitExp .icon{
+	float:left;
+	width:15px;
+  background-image:url(../images/icon_exp_b.gif);
+	background-repeat:no-repeat;
+	background-position:0px 1px;
+}
+
+.tabtit2{
+	background-color:#DEE1E2;
+	height:20px;
+	text-align:center;
+}
+
+
+/*************** cwCellContent ******************/
+
+#cwCellContent{
+	clear:both;
+
+	padding:0px 15px 15px 15px;
+	width:100% ;
+	overflow:auto;
+	/*height:70%;*/
+
+}
+
+#cwCellContent2{
+	padding:15px;
+	width:100% ;
+}
+
+/*-------- cwDataList ----------*/
+.cwDataList{
+	border:solid 1px #999999;
+	background-color:#cccccc;
+	font-size:0.75em;
+}
+.cwDLHead{
+	font-style:normal;
+	height:25px;
+	background-color:#D4E6F6;
+}
+.cwDLHead th{
+	font-weight:lighter;
+}
+/*.cwDLRow{
+	background-color:#ffffff;
+	behavior:url(/hapleasing/css/dataRow.htc);*/
+}
+.cwDLRow A{
+	padding-right:10px; 
+}
+.cwDLRow A:link{ 
+	background-image:url(../images/linkicon.gif);
+	background-repeat:no-repeat;
+	background-position:right;
+}
+.cwDLRowTj1{
+	background-color:#FFFFDD;
+}
+.cwDLRowTj2{
+	background-color:#E9FCF3;
+}
+.cwDLRowTj3{
+	background-color:#E7F0E6;
+}
+
+/*------- cwDataNav ---------*/
+#cwDataNav{
+	float:right;
+}
+#cwDataNav td{
+}
+
+
+/*------- cwDataInput -------*/
+.cwDataInput{
+	/*border:solid 1px #fcfcfc;
+	background-color:#F7F3F7;*/
+	font-size:0.75em;
+}
+.cwDataInput td {
+	height:20px;
+
+}
+.cwDataInput th {
+	text-align:left;
+
+}
+
+/*------- cwDataInputLine -------*/
+.cwDataInputLine{
+         border:1px #ccc solid;
+	 border-bottom:0;
+	 border-right:0;
+         font-size:0.75em;
+}
+.cwDataInputLine td{
+	border:1px #999 solid;
+	border-top:0; border-left:0
+}
+.cwDataInputLine th{
+	border:1px #999 solid;
+	border-top:0; border-left:0
+}
+
+/*------- cwDataDetail -------*/
+
+.cwLBTit{
+	font-size:0.75em;
+	font-weight:bold;
+	margin:5px;
+}
+
+.cwDataDetail{
+	border:solid 1px #fcfcfc;
+	background-color:#F7F3F7;
+	font-size:0.75em;
+ width:100%;
+}
+.cwDDLabel{
+	background-color:#D4E6F6;
+	height:20px;
+	text-align:left;
+}
+.cwDDLabel2{
+	background-color:#D4E6F6;
+	height:20px;
+	text-align:left;
+	padding-left:10px;
+	padding-top:2px;
+}
+
+.cwDDValue{
+	background-color:#ffffff;
+}
+
+
+/*-------  cwToolbar --------*/
+#cwToolbar{
+	float:right;
+	margin:0 5px;
+}
+
+
+
+/************** 组件样式 **************/
+
+#tablesub .cwDataDetail input,#tablesub .cwDataDetail textarea{
+	width:100%;
+}
+#tablesub .cwDataDetail .rd{
+	width:14px;
+}
+
+textarea{
+	border: 1px solid #919191;
+	width:300px;
+}
+
+.readonly{
+	border: 1px solid #aaaaaa;	
+	background-color:#fefefe;
+}
+img{
+	border:0;
+}
+
+.cwDLRow .rd{
+	behavior:url(../../css/itemselect.htc);
+}
+
+.rd{
+	border-width: 0;
+	width:14px;
+	height:12px;
+	cursor:pointer;
+}
+input {
+	border: 1px solid #919191;
+}
+
+.btn{
+	margin:0 3px;
+	background-image:url(../images/btn4.gif);
+	border:0;
+	width:71px;
+	height:21px ;
+	cursor:pointer;
+	behavior:url(/iulcleasing/css/btn.htc);
+}
+
+#tabUpFile{
+font-size:100%;
+}
+
+/*****************/
+.biTian{
+	color:#FF6600;
+}
+
+
+.td_relative { 
+background-color: #D4E6F6; 
+top : expression(document.getElementById("cwCellContent").scrollTop-1); 
+position : relative; 
+z-index : 1 
+} 
+
+
+/*追加样式 王晓东 081119
+
+*/
+body,table,tr,td{
+
+	font-size:12px;
+	padding:0px;
+	overflow:hidden;
+}
+
+.maintable{
+ border:1 solid #8db2e3;
+ background:#f4f9ff;
+}
+
+tr.tree_title_txt{
+  background-image:url(../images/pageleft_topbg_1.gif);
+}
+
+td.tree_title_txt {
+font-weight:bold;
+height:25px;
+color:#154288;
+text-indent:12px;
+}
+
+
+tr.maintab_content_table_title {
+/*background-image:url(../images/pageleft_topbg_1.gif);*/
+background-color:#ffffff;
+height:25px!important;
+color:#15428B;
+text-align:center;
+border-top:1px solid #FF0000;
+position:relative;
+top:expression(this.offsetParent.scrollTop-1);
+}
+
+tr.maintab_content_table_title th {
+background-color:#D8E6F6;
+font-weight:normal;white-space: nowrap;border:0px solid #FF0000;
+}
+
+
+table.maintab_content_table {
+border-collapse:collapse;
+background-color:#ffffff;
+padding:0px;
+}
+
+table.maintab_content_table tr {
+padding:1px;
+background-color:expression((this.sectionRowIndex%2==0)?"":"#FAFAFA");
+height:25px!important;
+}
+
+table.maintab_content_table td {
+padding:3px;
+border-style:solid; 
+border: 1px solid #EDEDED; 
+}
+
+
+
+fieldset {
+padding:10px;
+margin:10px;
+
+}
+
+
+table.maintab {
+background:#8db2e3; 
+border-right: 10px solid #ff0000; 
+}
+
+tr.maintab {
+background-image:url(../images/bg_line2.gif);
+height:27px;
+text-indent:4px;
+}
+/*
+
+王晓东添加样式控制报表外观090113
+
+*/
+
+/*表单外观和交替行
+
+*/
+table.tab_table_title {
+border-collapse:collapse;
+}
+table.tab_table_title tr{
+background-color:expression((this.sectionRowIndex%2==0)?"#FFFFFF":"#F0F1F4");
+}
+
+table.tab_table_title td{
+vertical-align: middle;
+line-height:27px;
+border:1px solid #ffffff;
+text-indent:10px;
+}
+
+/*追加入色系变换样式表
+
+*/
+.bbs_th {
+background-color:#D2E1F4;               
+}
+
+tr.maintab_dh {
+height:27px;
+text-indent:4px;
+}
+
+table.maintab_content_table tr {
+height:18px;
+padding:1px;
+/*隔行变色不支持firefox，可以用js来完成，在table中追加 id="changetrcol2"*/
+background-color:expression((this.sectionRowIndex%2==0)?"":"#FAFAFA");
+}
+
+/*按钮样式
+
+*/
+.btn3_mouseout {
+height:22px;
+width:60px;
+border-style:solid;
+border-color:#8db2e3;
+border-width: 1px;
+PADDING:2px;
+PADDING-bottom:0px;
+FONT-SIZE: 12px;
+COLOR:black;
+FILTER: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#ffffff, EndColorStr=#d6e2f3);  CURSOR:hand;
+}
+
+.btn3_mouseover {
+height:22px;
+width:60px;
+border-style:solid;
+border-color:#154288;
+border-width: 1px;
+PADDING:2px;
+PADDING-bottom:0px;
+FONT-SIZE: 12px;
+COLOR:black;
+FILTER: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#ffffff, EndColorStr=#d6e2f3);
+CURSOR:hand;
+}
+
+.btnc_mouseout {
+border-style:solid;
+border-width: 1px;
+border-color:#EBE9ED;
+PADDING:1px;
+text-align:center;
+letter-spacing:5px;
+}
+
+.btnc_mouseout a  {
+text-decoration:none;color:#000000;
+}
+
+.btnc_mouseover {
+letter-spacing:5px;
+text-align:center;
+border-style:solid;
+border-color:#8db2e3;
+border-width: 1px;
+PADDING:1px;
+FONT-SIZE: 12px;
+COLOR:black;
+FILTER: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#ffffff, EndColorStr=#d6e2f3);
+CURSOR:hand;
+}
+
+.btnc_mouseover a:hover  {
+text-decoration:none;color:#000000;
+}
+
+.btn_2 {
+color:#154288;
+border-style:solid;
+border:0px solid #FF0000;
+background-color:transparent;
+height:20px;
+CURSOR: hand;
+star:expression(
+onmouseover=function(){this.className="btn_2mouseover"},
+onmouseout=function(){this.className="btn_2"}
+)}
+
+.btn_2mouseover {
+color:#154288;
+text-align:center;
+background-color:#F4F9FF;
+border:0px solid;
+border-color:#FFFFFF #9F9F9F #9F9F9F #FFFFFF;
+CURSOR: hand;
+height:20px;
+text-decoration:underline;
+}

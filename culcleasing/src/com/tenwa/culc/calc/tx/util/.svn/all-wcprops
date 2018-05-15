@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/TLS3.5/!svn/ver/431/branches/culc2016/culcleasing/src/com/tenwa/culc/calc/tx/util
+END
+Tx_ImplicitInterestUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/src/com/tenwa/culc/calc/tx/util/Tx_ImplicitInterestUtil.java
+END
+AdjustRentUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/TLS3.5/!svn/ver/466/branches/culc2016/culcleasing/src/com/tenwa/culc/calc/tx/util/AdjustRentUtil.java
+END
+EqualDiffCorUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/src/com/tenwa/culc/calc/tx/util/EqualDiffCorUtil.java
+END
+Tx_EqualDiffRentUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/src/com/tenwa/culc/calc/tx/util/Tx_EqualDiffRentUtil.java
+END
+EqualPaymentUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/src/com/tenwa/culc/calc/tx/util/EqualPaymentUtil.java
+END
+Tx_EqualRatioRentUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/src/com/tenwa/culc/calc/tx/util/Tx_EqualRatioRentUtil.java
+END
+Tx_NotEqualRentUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/TLS3.5/!svn/ver/466/branches/culc2016/culcleasing/src/com/tenwa/culc/calc/tx/util/Tx_NotEqualRentUtil.java
+END
+Tx_EqualRatioCorpusUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/src/com/tenwa/culc/calc/tx/util/Tx_EqualRatioCorpusUtil.java
+END
+Tx_EqualCorpusUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/src/com/tenwa/culc/calc/tx/util/Tx_EqualCorpusUtil.java
+END
+Tx_EqualDiffCorUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/src/com/tenwa/culc/calc/tx/util/Tx_EqualDiffCorUtil.java
+END
+Tx_NotEqualCorpusUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/src/com/tenwa/culc/calc/tx/util/Tx_NotEqualCorpusUtil.java
+END
+Tx_SettleLawUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/src/com/tenwa/culc/calc/tx/util/Tx_SettleLawUtil.java
+END
+Tx_EqualPaymentUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/src/com/tenwa/culc/calc/tx/util/Tx_EqualPaymentUtil.java
+END
+DateUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/TLS3.5/!svn/ver/542/branches/culc2016/culcleasing/src/com/tenwa/culc/calc/tx/util/DateUtils.java
+END

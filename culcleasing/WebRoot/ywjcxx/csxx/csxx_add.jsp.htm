@@ -1,0 +1,106 @@
+<%@ page contentType="text/html; charset=gb2312" language="java" import="java.sql.*" errorPage="" %>
+<!-- 05.002 -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>新增城市信息 - 城市信息</title>
+<link href="../../css/global.css" rel="stylesheet" type="text/css">
+<script src="../../js/comm.js"></script>
+</head>
+
+<body>
+
+<div id="cwMain" >
+<form name="form1" method="post" action="csxx_save.jsp" onSubmit="return chkForm(this);">
+
+<div id="cwTop">
+<table id="cwTopTit" border="0" cellpadding="0" cellspacing="0" >
+    <tr>
+      <td id="cwTopTitLeft"></td>
+      <td id="cwTopTitTxt"  >城市信息</td>
+      <td id="cwTopTitRight"></td>
+    </tr>
+</table>  
+</div>
+<!-- end cwTop -->
+
+
+
+<div id="cwCell">
+
+
+
+
+
+<div id="cwCellTop">
+
+	<table id="cwCellTopTit" width="100%" border="0" cellpadding="0" cellspacing="0" >
+      <tr>
+        <td id="cwCellTopTitLeft"></td>
+        <td id="cwCellTopTitTxt">新增城市信息</td>
+        <td id="cwCellTopTitRight"></td>
+      </tr>
+    </table>
+	
+<table id="cwCellToolbar" border="0" cellspacing="5" cellpadding="0" >
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+</table>
+	
+</div>
+<!-- end cwCellTop -->
+
+
+
+<div id="cwCellContent">
+
+<input type="hidden" name="savetype" value="add">
+<table class="cwDataInput"  border="0" cellspacing="5" cellpadding="2">
+  <tr>
+    <th width="79" scope="row">省/直辖市</th>
+    <td width="30">
+    <select name=yx>
+    <option>
+    <option selected>
+    </select>
+    </td>
+  </tr>
+  <tr>
+    <th scope="row">城市代码</th>
+    <td><input name="textfield" type="text" size="7" maxlength="7" label="城市代码" contTyp="" isOpt="0">></td>
+  </tr>
+  <tr>
+    <th scope="row">名称</th>
+    <td><input name="textfield" type="text" size="30" maxlength="30"></td>
+  </tr>
+</table>
+
+
+<!-- end cwDataNav -->
+
+
+
+
+</div>
+<!-- end cwCellContent -->
+
+
+
+
+</div>
+<!-- end cwCell -->
+
+
+
+
+
+<div id="cwToolbar" >
+<input class="btn" name="btnSave" value="保存" type="submit"> <input class="btn" name="btnClose" value="取消" type="button" onclick="window.close();"><input class="btn" name="btnReset" value="重置" type="reset">
+</div>
+<!-- end cwToolbar -->
+    </form>
+</div>
+<!-- end cwMain -->
+</body>
+</html>

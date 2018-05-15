@@ -1,0 +1,153 @@
+<%@ page contentType="text/html; charset=gb2312" language="java" import="java.sql.*" errorPage="" %>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!-- 05.002 -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>币种信息列表 - 币种信息</title>
+<link href="../../css/global.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<div id="cwMain" >
+
+
+<div id="cwTop">
+<table id="cwTopTit" border="0" cellpadding="0" cellspacing="0" >
+    <tr>
+      <td id="cwTopTitLeft"></td>
+      <td id="cwTopTitTxt"  >币种信息</td>
+      <td id="cwTopTitRight"></td>
+    </tr>
+</table>  
+</div>
+<!-- end cwTop -->
+
+
+
+<div id="cwCell">
+
+
+
+
+
+<div id="cwCellTop">
+
+	<table id="cwCellTopTit" width="100%" border="0" cellpadding="0" cellspacing="0" >
+      <tr>
+        <td id="cwCellTopTitLeft"></td>
+        <td id="cwCellTopTitTxt">币种信息列表</td>
+        <td id="cwCellTopTitRight"></td>
+      </tr>
+    </table>
+
+	
+<table id="cwCellToolbar" border="0" cellspacing="5" cellpadding="0" >
+      <tr>
+        <td><a href="#" ><img src="../../images/sbtn_detail.gif" alt="详细信息" width="19" height="19" align="absmiddle"></a></td>
+		<td><img src="../../images/sbtn_split.gif" width="2" height="14"></td>
+		<td><a href="#" accesskey="n"><img src="../../images/sbtn_new.gif" alt="新增(Alt+N)" width="19" height="19" align="absmiddle" ></a></td>
+		<td><a href="#" accesskey="d"><img src="../../images/sbtn_del.gif" alt="删除(Alt+D)" width="19" height="19" align="absmiddle" ></a></td>
+		<td><a href="#"  accesskey="m"><img src="../../images/sbtn_mod.gif" alt="修改(Alt+M)" width="19" height="19" align="absmiddle"></a></td>
+		<td><img src="../../images/sbtn_split.gif" width="2" height="14"></td>
+        <form action="">
+          <td nowrap><input name="searchKey" accesskey="s" type="text" id="searchWord" size="15"><input name="image" type="image" src="../../images/tbtn_searh.gif" alt="查询" align="absmiddle" >
+          </td>
+        </form>
+      </tr>
+</table>
+
+
+</div>
+<!-- end cwCellTop -->
+
+
+
+<div id="cwCellContent">
+
+
+    <table class="cwDataList" width="100%"  border="0"  align="center" cellpadding="2" cellspacing="1" >
+      <tr class="cwDLHead">
+	    <th width="1%"></th>
+	    <th>币种代码</th>
+        <th>币种名称</th>
+        <th>最后更新日期</th>
+        <th>序号</th>
+      </tr>
+	  
+	  
+      <tr class="cwDLRow" >
+        <td><input class="rd" type="radio" name="RadioGroup1" value="单选"></td>
+        <td align="center">1111</td>
+        <td><a href="#" target="_blank">名称名称名称名称名称</a></td>
+        <td align="center">2004-10-5</td>
+        <td align="center">2004-10-5</td>
+      </tr>
+	  
+	  
+	  <!-- 可删 开始 -->
+      <tr class="cwDLRow">
+        <td><input class="rd" type="radio" name="RadioGroup1" value="单选"></td>
+        <td align="center">2222</td>
+        <td><a href="http://www.sina.com" target="_blank">名称名称名称</a></td>
+        <td align="center">2004-10-5</td>
+        <td align="center">2004-10-5</td>
+      </tr>
+      <tr class="cwDLRow">
+        <td><input class="rd" type="radio" name="RadioGroup1" value="单选"></td>
+        <td align="center">3333</td>
+        <td><a href="../../远东_web/&#27169;&#26495;/123" target="_blank">名称名称名称名称名称名称</a></td>
+        <td align="center">2004-10-5</td>
+        <td align="center">2004-10-5</td>
+      </tr>
+      <tr class="cwDLRow">
+        <td><input class="rd" type="radio" name="RadioGroup1" value="单选"></td>
+        <td align="center">4444</td>
+        <td><a href="#" target="_blank">名称名称名称名称名称名称</a></td>
+        <td align="center">2004-10-5</td>
+        <td align="center">2004-10-5</td>
+      </tr>
+<!-- 可删 结束 -->
+
+    </table>
+
+<div id="cwDataNav" >
+<table border="0" cellspacing="5" cellpadding="0">
+  <tr>
+    <td><a href="#"><img src="../../images/quick_back.gif" alt="第一页" width="19" height="19" border="0"></a> <a href="#"><img src="../../images/back.gif" alt="上一页" width="19" height="19" border="0"></a> <a href="#"><img src="../../images/forward.gif" alt="下一页" width="19" height="19" border="0"></a> <a href="#"><img src="../../images/quick_forward.gif" alt="最后页" width="19" height="19" border="0"></a></td>
+    <td>共8条 第1页 /共1页 </td>
+    <td><img src="../../images/sbtn_split.gif"></td>
+    <td>转到<input type="text" size="2">页<a href="#"><img src="../../images/goto.gif" alt="执行" width="19" height="19" border="0" align="absmiddle"></a></td>
+    <td><img src="../../images/sbtn_split.gif"></td>
+    <td>每页<input type="text" size="2">条<a href="#"><img src="../../images/ok.gif" alt="确定" width="19" height="19" border="0" align="absmiddle"></a></td>
+  </tr>
+</table>
+</div>
+<!-- end cwDataNav -->
+
+
+
+
+</div>
+<!-- end cwCellContent -->
+
+
+
+
+</div>
+<!-- end cwCell -->
+
+
+
+
+
+<div id="cwToolbar">
+<input class="btn" name="btnClose" value="关闭" type="button"><input class="btn" name="btnOk" value="确定" type="button">
+</div>
+<!-- end cwToolbar -->
+
+</div>
+<!-- end cwMain -->
+</body>
+</html>

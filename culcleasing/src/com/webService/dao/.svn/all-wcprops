@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/TLS3.5/!svn/ver/374/branches/culc2016/culcleasing/src/com/webService/dao
+END
+test.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/TLS3.5/!svn/ver/374/branches/culc2016/culcleasing/src/com/webService/dao/test.java
+END
+GlobalBjjsYYDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/TLS3.5/!svn/ver/521/branches/culc2016/culcleasing/src/com/webService/dao/GlobalBjjsYYDao.java
+END
+GlobalInterestDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/TLS3.5/!svn/ver/521/branches/culc2016/culcleasing/src/com/webService/dao/GlobalInterestDao.java
+END
+GlobalProjectEndDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/TLS3.5/!svn/ver/521/branches/culc2016/culcleasing/src/com/webService/dao/GlobalProjectEndDao.java
+END
+GlobalInterestSubsidyDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/TLS3.5/!svn/ver/521/branches/culc2016/culcleasing/src/com/webService/dao/GlobalInterestSubsidyDao.java
+END
+GlobalBeforeConfirmDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/TLS3.5/!svn/ver/535/branches/culc2016/culcleasing/src/com/webService/dao/GlobalBeforeConfirmDao.java
+END
+GlobalLxjsDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/TLS3.5/!svn/ver/521/branches/culc2016/culcleasing/src/com/webService/dao/GlobalLxjsDao.java
+END
+GlobalPaiedDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/TLS3.5/!svn/ver/521/branches/culc2016/culcleasing/src/com/webService/dao/GlobalPaiedDao.java
+END
+GlobalReceiveDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/TLS3.5/!svn/ver/521/branches/culc2016/culcleasing/src/com/webService/dao/GlobalReceiveDao.java
+END
+GlobalLxjsYYDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/TLS3.5/!svn/ver/521/branches/culc2016/culcleasing/src/com/webService/dao/GlobalLxjsYYDao.java
+END
+GlobalStartRentDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/TLS3.5/!svn/ver/521/branches/culc2016/culcleasing/src/com/webService/dao/GlobalStartRentDao.java
+END
+GlobalFundPlanDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/TLS3.5/!svn/ver/521/branches/culc2016/culcleasing/src/com/webService/dao/GlobalFundPlanDao.java
+END
+GlobalBjjsDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/TLS3.5/!svn/ver/521/branches/culc2016/culcleasing/src/com/webService/dao/GlobalBjjsDao.java
+END

@@ -1,0 +1,32 @@
+/*树形菜单样式控制 王晓东 090312
+
+*/
+
+.dtree {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	white-space: nowrap;
+}
+.dtree img {
+	border: 0px;
+	vertical-align: middle;
+}
+.dtree a {
+	color: #000000;
+	text-decoration: none;
+}
+.dtree a.node, .dtree a.nodeSel {
+	white-space: nowrap;
+	padding: 2px 4px 2px 4px;
+}
+.dtree a.node:hover, .dtree a.nodeSel:hover {
+
+}
+.dtree a.nodeSel {
+	background-color:#154288;
+	color:#FFFFFF;
+}
+.dtree .clip {
+	overflow: hidden;
+}

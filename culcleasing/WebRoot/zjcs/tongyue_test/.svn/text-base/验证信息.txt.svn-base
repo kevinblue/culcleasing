@@ -1,0 +1,239 @@
+<script language="javascript">
+ dict_list("nbhydata","hapindustry","","name");
+function GetXmlHttpObject(){
+	var objXMLHttp = null;
+	if(window.XMLHttpRequest)	{
+		objXMLHttp = new XMLHttpRequest();
+	}else if(window.ActiveXObject)	{
+		objXMLHttp = new ActiveXObject("Microsoft.XMLHTTP");
+	}
+	return objXMLHttp;
+}
+function codecheck(){
+	var org_code=document.form1.org_code.value;
+	var returnvalue="1";
+	if(org_code!=""){
+		var xmlHttp = GetXmlHttpObject();
+		var url = "khcode_check.jsp?stype=2&code="+org_code;
+	  	xmlHttp.open("POST",url,false);
+	  	xmlHttp.send(null);
+	  	var vDiv = document.createElement("DIV");
+	   	vDiv.innerHTML = xmlHttp.responseText 
+		returnvalue=vDiv.innerText;		
+	}
+	if(returnvalue!="1"){
+		alert(returnvalue);
+		document.getElementsByName("org_code").item(0).select();
+		//.focus();
+	}
+}
+function namecheck(){
+  var cust_name=document.form1.cust_name.value;
+  var returnvalue="5";
+  if(cust_name!=""){
+  	var xmlHttp = GetXmlHttpObject();
+		var url = "khname_check.jsp?stype=6&cust_name="+cust_name;
+	  	xmlHttp.open("POST",url,false);
+	  	xmlHttp.send(null);
+	  	var vDiv = document.createElement("DIV");
+	   	vDiv.innerHTML = xmlHttp.responseText 
+		returnvalue=vDiv.innerText;	
+  }
+  if(returnvalue!="5"){
+		alert(returnvalue);
+		document.getElementsByName("cust_name").item(0).select();
+		//.focus();
+	}
+}
+
+function cardcheck(){
+var id_card_no=document.form1.id_card_no.value;
+  var returnvalue="3";
+  if(id_card_no!=""){
+  	var xmlHttp = GetXmlHttpObject();
+		var url = "khcard_check.jsp?stype=4&id_card_no="+id_card_no;
+	  	xmlHttp.open("POST",url,false);
+	  	xmlHttp.send(null);
+	  	var vDiv = document.createElement("DIV");
+	   	vDiv.innerHTML = xmlHttp.responseText 
+		returnvalue=vDiv.innerText;	
+  }
+  if(returnvalue!="3"){
+		alert(returnvalue);
+		document.getElementsByName("id_card_no").item(0).select();
+		//.focus();
+	}
+}
+
+function checkdata(obj)
+{
+    
+    if (!checkNumber(document.getElementById("national_tax_number"),"国税登记号")) return false;
+    if (!checkNumber(document.getElementById("land_tax_number"),"地税登记号")) return false;
+    if (!checkNumber(document.getElementById("reg_number"),"登记注册号")) return false; 
+  
+}
+
+function checkNumber(obj,objname)
+{
+
+   re=/^[A-Za-z0-9]+$/
+   code=trim(obj.value);
+   if (code!="")
+   {
+       r = code.match(re);   
+       if (r == null) {
+	   alert(objname+"应只包含字母和数字!");
+           obj.select();
+           return false;
+       }
+   }   
+   return true;     
+}
+
+
+
+function checkDKK(obj) {
+  var financecode=trim(obj.value);
+
+   var code = financecode;
+
+   if (code.length<1) {
+     alert("请输入贷款卡编码!");
+     obj.select();
+       return false;
+   }
+
+   if (code.match(/[A-Z0-9]{16}/) == null) {
+      alert("贷款卡编码错误!");
+      obj.select();
+       return false;
+   }
+
+   var w_i = new Array(14);
+   var c_i = new Array(14);
+   var j, s = 0;
+   var checkid = 0;
+   var c, i;
+
+    w_i[0] = 1;
+    w_i[1] = 3;
+    w_i[2] = 5;
+    w_i[3] = 7;
+    w_i[4] = 11;
+    w_i[5] = 2;
+    w_i[6] = 13;
+    w_i[7] = 1;
+    w_i[8] = 1;
+    w_i[9] = 17;
+    w_i[10] = 19;
+    w_i[11] = 97;
+    w_i[12] = 23;
+    w_i[13] = 29;
+
+
+   for (j = 0; j < 14; j++) {
+       if ( financecode.charAt(j) >= '0' && financecode.charAt(j) <= '9') {
+          c_i[j] = financecode.charCodeAt(j) - '0'.charCodeAt(0);
+       }
+       else if ( financecode.charAt(j) >= 'A' && financecode.charAt(j) <= 'Z') {
+       c_i[j] = financecode.charCodeAt(j) - 'A'.charCodeAt(0) + 10;
+       }
+       else{
+           alert("贷款卡编码错误!");
+           obj.select();
+           return false;
+       }
+      s = s + w_i[j] * c_i[j];
+   }
+
+   c = 1 + (s % 97);
+   checkid = ( financecode.charCodeAt(14) - '0'.charCodeAt(0) ) * 10 + financecode.charCodeAt(15) - '0'.charCodeAt(0);
+   if ( c != checkid ) {
+         alert("贷款卡编码错误!");
+        obj.select();
+        return false;
+   }
+   return true;
+}
+
+
+</script>
+
+<script>
+function isValidOrgCode(){
+		
+		var orgCode = form1.org_code.value;
+		var resultSet;
+		if (orgCode.length<10){
+		 resultSet = false;
+		}
+
+	for (i = 0; (i < 10); i++) {
+   var aa = orgCode.charCodeAt(i);
+
+			if (i != 8) {
+				
+				if (aa < 48) {
+						resultSet = false;
+				} else if ((aa > 57) && (aa < 65)) {
+						resultSet = false;
+				} else if ((aa > 90) && (aa < 97)) {
+						resultSet = false;
+				} else if ((aa > 122)) {
+						resultSet = false;
+				}
+			} else {
+			
+				if (aa != 45) {
+						resultSet = false;
+				}else{resultSet = true};
+				
+			}
+		}
+	return resultSet;
+		}
+//去空格
+trim = function(/*String*/ str){
+	str = str.replace(/^\s+/, '');
+	for(var i = str.length - 1; i > 0; i--){
+		if(/\S/.test(str.charAt(i))){
+			str = str.substring(0, i + 1);
+			break;
+		}
+	}
+	return str;	// String
+}
+//规范性
+getNormalize = function (s){
+	return s != '0000000-0'
+			&& /^[0-9A-Z]{2}[0-9]{6}-[0-9X]$/.test(trim(s))
+}
+//合法性验证规则
+getCodeResult = function (s){
+				var w_i = [3,7,9,10,5,8,4,2];
+				cr = 0 ;
+				for(i=0;i<8;i++){
+					ct = s.charCodeAt(i);
+					cr += (ct < 58 ? (ct - 48) : (ct - 55)) * w_i[i]
+				}
+				cr = 11 - cr % 11;
+				return s.charCodeAt(9) == 88 && cr == 10
+						|| cr == 11 && s.charCodeAt(9) == 48
+						|| cr == s.charCodeAt(9) - 48;
+			}
+//合法性
+function getValidity(s){
+	return getNormalize(s) && getCodeResult(s);
+}
+
+function CheckOrgCode(){
+	if(!getValidity(document.getElementById("org_code").value))
+	if(isValidOrgCode()==false)
+	{
+	alert("组织机构代码证不符合规范");
+	form1.org_code.focus();
+	return false;}
+	}
+
+</script>

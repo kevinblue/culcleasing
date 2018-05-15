@@ -1,0 +1,125 @@
+<%@ page contentType="text/html; charset=gb2312" language="java" import="java.sql.*" errorPage="" %>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!-- 05.002 -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>修改银行信息 - 银行信息</title>
+<link href="../../css/global.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<div id="cwMain" >
+
+
+<div id="cwTop">
+<table id="cwTopTit" border="0" cellpadding="0" cellspacing="0" >
+    <tr>
+      <td id="cwTopTitLeft"></td>
+      <td id="cwTopTitTxt"  >银行信息</td>
+      <td id="cwTopTitRight"></td>
+    </tr>
+</table>  
+</div>
+<!-- end cwTop -->
+
+
+
+<div id="cwCell">
+
+
+
+
+
+<div id="cwCellTop">
+
+	<table id="cwCellTopTit" width="100%" border="0" cellpadding="0" cellspacing="0" >
+      <tr>
+        <td id="cwCellTopTitLeft"></td>
+        <td id="cwCellTopTitTxt">修改银行信息</td>
+        <td id="cwCellTopTitRight"></td>
+      </tr>
+    </table>
+	
+<table id="cwCellToolbar" border="0" cellspacing="5" cellpadding="0" >
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+</table>
+	
+</div>
+<!-- end cwCellTop -->
+
+
+
+<div id="cwCellContent">
+
+<form name="form1" method="post" action="">
+<table class="cwDataInput"  border="0" cellspacing="5" cellpadding="2">
+  <tr>
+    <th width="79" scope="row">银行名称</th>
+    <td width="218">
+      <input name="textfield" type="text" size="50" maxlength="50">
+    <option>
+    <option selected>
+    </select></td>
+  </tr>
+  <tr>
+    <th scope="row">类型</th>
+    <td>
+	<select name=yx maxlength="10">
+    <option>
+    <option selected>
+    </select></td>
+  </tr>
+  <tr>
+    <th scope="row">银行地址</th>
+    <td><textarea name="yh" style="width:60"></textarea>
+        </form></td>
+  </tr>
+  <tr>
+    <th scope="row">备注</th>
+    <td><textarea name="yh" style="width:60"></textarea>
+        </form></td>
+  </tr>
+  <tr>
+    <th scope="row">最后更新日期</th>
+    <td>2004-5-10</td>
+  </tr>
+  <tr>
+    <th scope="row"> 操作员</th>
+    <td>操作员</td>
+  </tr>
+</table>
+    </form>
+
+
+<!-- end cwDataNav -->
+
+
+
+
+</div>
+<!-- end cwCellContent -->
+
+
+
+
+</div>
+<!-- end cwCell -->
+
+
+
+
+
+<div id="cwToolbar" >
+<input class="btn" name="btnClose" value="修改" type="button"><input class="btn" name="btnClose" value="取消" type="button"><input class="btn" name="btnOk" value="重置" type="button">
+</div>
+<!-- end cwToolbar -->
+
+</div>
+<!-- end cwMain -->
+</body>
+</html>
+

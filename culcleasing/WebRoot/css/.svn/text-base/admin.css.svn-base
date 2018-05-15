@@ -1,0 +1,54 @@
+@charset "gb2312";
+/* CSS Document */
+
+#menusub {
+	background-image:url(../images/menulinksbottom.gif);
+	background-position:bottom;
+	background-repeat:no-repeat;
+	background-color:#B7D7FD;
+	border-width:0px 3px 0px 3px  ;
+	border-style: solid;
+	border-color: #73ABE4;
+	padding:10px 0px 15px 0px ;
+	margin:0px 0px 5px 0px;
+}
+#menusub a {
+	background-image:url(../images/menu_mojbutton.gif);
+	background-repeat:no-repeat;
+	background-position:13px 4px ;
+	padding: 3px 5px 3px 28px;
+	margin:0px 5px 0px 5px;
+	display:block;
+	font:0.75em;
+	color:#333;
+}
+#menusub a:visited{
+	color:#333;
+
+}
+#menusub a:hover{
+	color:#333366;
+	text-decoration: none;
+	background-color: #F0F7FD;
+}
+#menusub a:active {
+	color:#333366;
+	text-decoration: none;
+	background-color: #fff;
+}
+
+#menuCell{
+background-color:#73ABE4;
+width:160px;
+margin:0px 0px 0px 0px;
+}
+#menuTit{
+	background-image:url(../images/zmenu_title_right.gif);
+	background-repeat:no-repeat;
+	background-position:center;
+	height:22px;
+	text-align:center;
+	font-size:0.8em;
+	padding-top:3px;
+	cursor:pointer;
+}

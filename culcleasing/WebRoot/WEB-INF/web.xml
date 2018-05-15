@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><web-app id="WebApp_1273134438932" version="2.4" xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee   http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+<!--
+	<filter>
+		<filter-name>sessionFilter</filter-name>
+		<filter-class>com.tenwa.filter.SessionFilter</filter-class>
+	</filter>
+
+	<filter-mapping>
+		<filter-name>sessionFilter</filter-name>
+		<url-pattern>*.jsp</url-pattern>
+	</filter-mapping>
+-->
+	<servlet>
+		<servlet-name>DownloadServlet</servlet-name>
+		<servlet-class>com.servlet.DownloadServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>DownloadServlet</servlet-name>
+		<url-pattern>/servlet/DownloadServlet</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>FinanceUploadServlet</servlet-name>
+		<servlet-class>com.servlet.FinanceUploadServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>FinanceUploadServlet</servlet-name>
+		<url-pattern>/servlet/FinanceUploadServlet</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<display-name>Finance Interface Servlet</display-name>
+		<servlet-name>FIDataSyncCulcServlet</servlet-name>
+		<servlet-class>
+			com.servlet.FIDataSyncCulcServlet
+		</servlet-class>
+		<load-on-startup>5</load-on-startup>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>FIDataSyncCulcServlet</servlet-name>
+		<url-pattern>/servlet/FIDataSyncCulcServlet</url-pattern>
+	</servlet-mapping>
+	
+	
+		<resource-ref id="ResourceRef_1273134438932">
+		<description>sqlserver DataSource</description>
+		<res-ref-name>jdbc/culcleasing</res-ref-name>
+		<res-type>javax.sql.DataSource</res-type>
+		<res-auth>Container</res-auth>
+	</resource-ref>
+    
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+
+</web-app>

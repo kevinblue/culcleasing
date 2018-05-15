@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<parameters>
+		<parameter name="admin" value="controls\\admins\\admin"/>
+		<parameter name="smsaccount" value="sms\\accounts\\smsaccount"/>
+		<parameter name="smspassword" value="sms\\passwords\\smspassword"/>
+		<parameter name="smsurl" value="sms\\urls\\smsurl"/>
+	</parameters>
+	<controls>
+		<admins>
+			<admin>admin</admin>
+		</admins>
+		<admins>
+			<admin>Administrator</admin>
+		</admins>
+		<admins>
+			<admin>nissin</admin>
+		</admins>
+	</controls>
+	<sms>
+		<accounts>
+			<smsaccount>rixinsdk</smsaccount>
+		</accounts>
+		<passwords>
+			<smspassword>123456</smspassword>
+		</passwords>
+		<urls>
+			<smsurl>http://61.152.182.249:8080/NOSmsPlatform/services/BusinessService</smsurl>
+		</urls>
+	</sms>
+</config>

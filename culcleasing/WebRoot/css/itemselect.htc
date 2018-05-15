@@ -1,0 +1,21 @@
+//05.04.28 SOMAX
+<attach event="onpropertychange" onevent="mychange()"/>
+<script language="Javascript">
+
+var theRow=this.parentNode.parentNode;
+var colorSelected="#d7e9f0";
+var colorOut="#ffffff";
+var colorSp=theRow.style.background;
+function mychange(){
+	if(this.checked){
+		theRow.style.background=colorSelected;
+	}else{
+		
+		if (colorSp==""){
+			theRow.style.background=colorOut;
+		}else{
+			theRow.style.background=colorSp;
+		}
+	}
+}
+</script>

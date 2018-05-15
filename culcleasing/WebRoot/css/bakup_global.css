@@ -1,0 +1,290 @@
+@charset "gb2312";
+/**********************/
+/*   05.009
+/*   最后修改日期 05.04.13
+/**********************/
+
+
+/**************基本样式****************/
+body{
+	background-color:#738792;
+	margin:0px;
+	padding:3px;
+	
+	 SCROLLBAR-FACE-COLOR: #E5E5D8;
+   SCROLLBAR-HIGHLIGHT-COLOR: #ffffff;
+	 SCROLLBAR-SHADOW-COLOR: #c8d0d2;
+	 SCROLLBAR-3DLIGHT-COLOR: #c8d0d2;
+	 SCROLLBAR-ARROW-COLOR: #000000;
+	 SCROLLBAR-TRACK-COLOR: #E1DFD5;
+	 SCROLLBAR-DARKSHADOW-COLOR: #ffffff;
+	 SCROLLBAR-BASE-COLOR: #ffffff
+}
+
+
+
+A{
+	COLOR: #333399;
+	CURSOR: hand;
+	FONT-STYLE: normal;
+	TEXT-DECORATION: none;
+}
+A:visited {
+	COLOR: #666699; 
+}
+A:active {
+	COLOR: #0000CC;
+	FONT-STYLE: normal;
+	TEXT-DECORATION: underline;
+}
+A:hover {
+	COLOR: #0000CC;
+	FONT-STYLE: normal;
+	TEXT-DECORATION: underline;
+}
+
+
+
+
+/********* cwMain ***********/
+
+
+#cwMain{
+	width:100%;
+	background-color:#F5F2F5;
+	border:solid 1px #cccccc; 
+} 
+
+
+
+
+/********* cwTop ***********/
+#cwTop{
+	width:100%;
+	background-image: url(../images/cap_bakg2.gif);
+	background-repeat: repeat-x; 
+}
+#cwTopTit{
+	background-image:url(../images/cap_bakg1.gif);
+	background-repeat:repeat-x; 
+	width:200px;
+} 
+#cwTopTitLeft{
+	background-image:url(../images/cap_left.gif); 
+	background-repeat:no-repeat;
+	width:18px;
+	height:15px;
+}
+#cwTopTitTxt{
+	font-size:0.8em;
+	padding-top:3px;
+}
+#cwTopTitRight{
+	background-image:url(../images/cap_cent.gif);
+	background-repeat:no-repeat;
+	width:23px;
+	height:22px;
+}
+
+
+
+
+
+
+/********* cwCell ***********/
+
+#cwCell{
+	width:100% ;
+	height:200px;
+	background-color:#EEEAEE;
+	border:solid 1px #cccccc;
+	margin:15px 
+}
+
+/* cwCellTop */
+#cwCellTop{
+	width:100%;
+	background-image: url(../images/top_bakg.gif);
+	background-repeat: repeat-x; 
+}
+
+
+#cwCellTopTit{
+	background-image:url(../images/tit_bakg.gif);
+	background-repeat:repeat-x;
+	width:200px;
+}
+
+#cwCellTopTitLeft{
+	background-image:url(../images/icon_sq_ye.gif); 
+	background-repeat:no-repeat;
+	background-position:center;
+	width:20px;
+	height:15px;
+}
+#cwCellTopTitTxt{
+	font-size:0.8em;
+	padding-top:3px;
+}
+#cwCellTopTitRight{
+	background-image:url(../images/tit_r.gif);
+	background-repeat:no-repeat;
+	width:15px;
+	height:21px;
+}
+
+
+/* cwCellToolbar */
+#cwCellToolbar{
+	position:relative;
+	top:-10px;
+	margin-right:5px;
+	float:right;
+	font-size:0.75em;
+	height:30px;
+}
+#cwCellToolbar a{
+text-decoration:none;
+color:#333333;
+behavior:url(/ydmis/css/hotkey.htc);
+}
+
+/*************** cwCellContent ******************/
+
+#cwCellContent{
+	padding:0px 15px 15px 15px;
+	width:100% ;
+	overflow:auto;
+	/*height:70%;*/
+
+}
+
+
+/* cwDataList */
+.cwDataList{
+	border:solid 1px #999999;
+	background-color:#cccccc;
+	font-size:0.75em;
+}
+.cwDLHead{
+	font-style:normal;
+	height:25px;
+	background-color:#D4E6F6;
+}
+.cwDLHead th{
+	font-weight:lighter;
+}
+.cwDLRow{
+	background-color:#ffffff;
+	behavior:url(/ydmis/css/dataRow.htc);
+}
+.cwDLRow A{
+	padding-right:10px; 
+}
+.cwDLRow A:link{ 
+	background-image:url(../images/linkicon.gif);
+	background-repeat:no-repeat;
+	background-position:right;
+}
+
+/* cwDataNav */
+#cwDataNav{
+	font-size:0.75em;
+	float:right;
+}
+#cwDataNav td{
+	font-size:0.75em;
+}
+
+
+
+/* cwDataInput */
+.cwDataInput{
+	/*border:solid 1px #fcfcfc;
+	background-color:#F7F3F7;*/
+	font-size:0.75em;
+}
+.cwDataInput td {
+	height:20px;
+
+}
+.cwDataInput th {
+	text-align:left;
+
+}
+
+
+/* cwDataDetail */
+
+.cwLBTit{
+	font-size:0.75em;
+	font-weight:bold;
+	margin:5px;
+}
+
+.cwDataDetail{
+	border:solid 1px #fcfcfc;
+	background-color:#F7F3F7;
+	font-size:0.75em;
+
+}
+.cwDDLabel{
+	background-color:#D4E6F6;
+	height:20px;
+	text-align:left;
+}
+.cwDDValue{
+	background-color:#ffffff;
+}
+
+
+/*  cwToolbar  */
+#cwToolbar{
+	float:right;
+	margin:0 5px;
+}
+
+
+
+/************** 组件样式 **************/
+input {
+	border: 1px solid #9db4d6;
+}
+textarea{
+	border: 1px solid #9db4d6;
+	width:300px;
+}
+
+.readonly{
+	border: 1px solid #aaaaaa;	
+	background-color:#fefefe;
+}
+img{
+	border:0;
+}
+
+.rd{
+	border-width: 0;
+	height:12px;
+	cursor:pointer;
+}
+.btn{
+	margin:0 3px;
+	background-image:url(../images/btn4.gif);
+	border:0;
+	width:71px;
+	height:21px ;
+	cursor:pointer;
+	behavior:url(/ydmis/css/btn.htc);
+}
+
+#tabUpFile{
+font-size:100%;
+}
+
+/*****************/
+.biTian{
+	color:#FF6600;
+}
+
+

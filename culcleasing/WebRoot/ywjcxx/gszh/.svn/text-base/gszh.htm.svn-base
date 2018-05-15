@@ -1,0 +1,113 @@
+<%@ page contentType="text/html; charset=gb2312" language="java" import="java.sql.*" errorPage="" %>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!-- 05.002 -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>公司内部账户明细 - 公司内部账户</title>
+<link href="../../css/global.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<div id="cwMain" >
+
+
+<div id="cwTop">
+<table id="cwTopTit" border="0" cellpadding="0" cellspacing="0" >
+    <tr>
+      <td id="cwTopTitLeft"></td>
+      <td id="cwTopTitTxt"  >公司内部账户</td>
+      <td id="cwTopTitRight"></td>
+    </tr>
+</table>  
+</div>
+<!-- end cwTop -->
+
+
+
+<div id="cwCell">
+
+
+
+
+
+<div id="cwCellTop">
+
+	<table id="cwCellTopTit" width="100%" border="0" cellpadding="0" cellspacing="0" >
+      <tr>
+        <td id="cwCellTopTitLeft"></td>
+        <td id="cwCellTopTitTxt">公司内部账户明细</td>
+        <td id="cwCellTopTitRight"></td>
+      </tr>
+    </table>
+	
+<table id="cwCellToolbar" border="0" cellspacing="5" cellpadding="0" >
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+</table>
+	
+</div>
+<!-- end cwCellTop -->
+
+
+
+<div id="cwCellContent">
+
+
+<table  class="cwDataDetail" width="100%" border="0" cellspacing="1" cellpadding="1">
+  <tr>
+    <th width="16%" class="cwDDLabel">开户银行</th>
+    <td width="84%" class="cwDDValue">名称名称名称名称名</td>
+  </tr>
+  <tr>
+    <th class="cwDDLabel" scope="row">开户帐号</th>
+    <td class="cwDDValue">11111</td>
+  </tr>
+  <tr>
+    <th class="cwDDLabel" scope="row">帐户类型</th>
+    <td class="cwDDValue">名称名称名称名称名称</td>
+  </tr>
+  <tr>
+    <th class="cwDDLabel" scope="row">帐户状态</th>
+    <td class="cwDDValue">名称名称名称名称名称</td>
+  </tr>
+    <tr>
+    <th class="cwDDLabel" scope="row">最后更新日期</th>
+    <td class="cwDDValue">2004-10-5</td>
+  </tr>
+  <tr>
+    <th class="cwDDLabel" scope="row">操作员</th>
+    <td class="cwDDValue">操作员</td>
+  </tr>
+</table>
+
+
+<!-- end cwDataNav -->
+
+
+
+
+</div>
+<!-- end cwCellContent -->
+
+
+
+
+</div>
+<!-- end cwCell -->
+
+
+
+
+
+<div id="cwToolbar">
+<input class="btn" name="btnClose" value="关闭" type="button">
+</div>
+<!-- end cwToolbar -->
+
+</div>
+<!-- end cwMain -->
+</body>
+</html>

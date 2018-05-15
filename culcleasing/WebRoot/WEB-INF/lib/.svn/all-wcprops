@@ -1,0 +1,449 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/TLS3.5/!svn/ver/408/branches/culc2016/culcleasing/WebRoot/WEB-INF/lib
+END
+axis.jar
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/WebRoot/WEB-INF/lib/axis.jar
+END
+jaxen-full.jar
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/WebRoot/WEB-INF/lib/jaxen-full.jar
+END
+string.jar
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/WebRoot/WEB-INF/lib/string.jar
+END
+wsdl4j-1.5.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/WebRoot/WEB-INF/lib/wsdl4j-1.5.1.jar
+END
+jaxp-api.jar
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/WebRoot/WEB-INF/lib/jaxp-api.jar
+END
+page.jar
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/WebRoot/WEB-INF/lib/page.jar
+END
+jstl.jar
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/WebRoot/WEB-INF/lib/jstl.jar
+END
+jspsql.jar
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/WebRoot/WEB-INF/lib/jspsql.jar
+END
+commons-discovery-0.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/TLS3.5/!svn/ver/323/branches/culc2016/culcleasing/WebRoot/WEB-INF/lib/commons-discovery-0.2.jar
+END
+log4j.jar
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/WebRoot/WEB-INF/lib/log4j.jar
+END
+sqljdbc.jar
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/TLS3.5/!svn/ver/320/branches/culc2016/culcleasing/WebRoot/WEB-INF/lib/sqljdbc.jar
+END
+poi-contrib-3.1-FINAL-20080629.jar
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/WebRoot/WEB-INF/lib/poi-contrib-3.1-FINAL-20080629.jar
+END
+poi-3.1-FINAL-20080629.jar
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/WebRoot/WEB-INF/lib/poi-3.1-FINAL-20080629.jar
+END
+jaxrpc.jar
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/WebRoot/WEB-INF/lib/jaxrpc.jar
+END
+jaxen-1.1-beta-10.jar
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/WebRoot/WEB-INF/lib/jaxen-1.1-beta-10.jar
+END
+servlet-api.jar
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/WebRoot/WEB-INF/lib/servlet-api.jar
+END
+jxl.jar
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/WebRoot/WEB-INF/lib/jxl.jar
+END
+response.jar
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/WebRoot/WEB-INF/lib/response.jar
+END
+poi-examples-3.9-20121203.jar
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/TLS3.5/!svn/ver/408/branches/culc2016/culcleasing/WebRoot/WEB-INF/lib/poi-examples-3.9-20121203.jar
+END
+org.springframework.web.struts-3.1.1.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/TLS3.5/!svn/ver/406/branches/culc2016/culcleasing/WebRoot/WEB-INF/lib/org.springframework.web.struts-3.1.1.RELEASE.jar
+END
+poi-ooxml-schemas-3.9-20121203.jar
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/TLS3.5/!svn/ver/408/branches/culc2016/culcleasing/WebRoot/WEB-INF/lib/poi-ooxml-schemas-3.9-20121203.jar
+END
+poi-examples-3.7-20101029.jar
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/WebRoot/WEB-INF/lib/poi-examples-3.7-20101029.jar
+END
+poi-ooxml-schemas-3.7-20101029.jar
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/WebRoot/WEB-INF/lib/poi-ooxml-schemas-3.7-20101029.jar
+END
+jspsmartupload.jar
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/WebRoot/WEB-INF/lib/jspsmartupload.jar
+END
+xercesImpl.jar
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/WebRoot/WEB-INF/lib/xercesImpl.jar
+END
+i18n.jar
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/WebRoot/WEB-INF/lib/i18n.jar
+END
+commons-beanutils-bean-collections-1.8.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/WebRoot/WEB-INF/lib/commons-beanutils-bean-collections-1.8.0.jar
+END
+mail.jar
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/TLS3.5/!svn/ver/323/branches/culc2016/culcleasing/WebRoot/WEB-INF/lib/mail.jar
+END
+poi-ooxml-3.9-20121203.jar
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/TLS3.5/!svn/ver/408/branches/culc2016/culcleasing/WebRoot/WEB-INF/lib/poi-ooxml-3.9-20121203.jar
+END
+poi-ooxml-3.7-20101029.jar
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/WebRoot/WEB-INF/lib/poi-ooxml-3.7-20101029.jar
+END
+commons-beanutils-core-1.8.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/WebRoot/WEB-INF/lib/commons-beanutils-core-1.8.0.jar
+END
+commons-logging-1.1.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/WebRoot/WEB-INF/lib/commons-logging-1.1.1.jar
+END
+datetime.jar
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/WebRoot/WEB-INF/lib/datetime.jar
+END
+dbbeans.jar
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/WebRoot/WEB-INF/lib/dbbeans.jar
+END
+hibernate-jpa-2.0-api-1.0.0.Final.jar
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/TLS3.5/!svn/ver/322/branches/culc2016/culcleasing/WebRoot/WEB-INF/lib/hibernate-jpa-2.0-api-1.0.0.Final.jar
+END
+poi-scratchpad-3.9-20121203.jar
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/TLS3.5/!svn/ver/408/branches/culc2016/culcleasing/WebRoot/WEB-INF/lib/poi-scratchpad-3.9-20121203.jar
+END
+commons-beanutils-1.8.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/WebRoot/WEB-INF/lib/commons-beanutils-1.8.0.jar
+END
+poi-scratchpad-3.7-20101029.jar
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/WebRoot/WEB-INF/lib/poi-scratchpad-3.7-20101029.jar
+END
+sqljdbc4-3.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/TLS3.5/!svn/ver/323/branches/culc2016/culcleasing/WebRoot/WEB-INF/lib/sqljdbc4-3.0.jar
+END
+xmlbeans-2.3.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/WebRoot/WEB-INF/lib/xmlbeans-2.3.0.jar
+END
+jdbc2_0-stdext.jar
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/WebRoot/WEB-INF/lib/jdbc2_0-stdext.jar
+END
+commons-io-1.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/WebRoot/WEB-INF/lib/commons-io-1.2.jar
+END
+dom4j-1.6.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/WebRoot/WEB-INF/lib/dom4j-1.6.1.jar
+END
+xfire-jsr181-api-1.0-M1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/TLS3.5/!svn/ver/323/branches/culc2016/culcleasing/WebRoot/WEB-INF/lib/xfire-jsr181-api-1.0-M1.jar
+END
+log4j-1.2.8.jar
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/TLS3.5/!svn/ver/323/branches/culc2016/culcleasing/WebRoot/WEB-INF/lib/log4j-1.2.8.jar
+END
+axis-ant.jar
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/TLS3.5/!svn/ver/323/branches/culc2016/culcleasing/WebRoot/WEB-INF/lib/axis-ant.jar
+END
+geronimo-stax-api_1.0_spec-1.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/WebRoot/WEB-INF/lib/geronimo-stax-api_1.0_spec-1.0.jar
+END
+poi-excelant-3.9-20121203.jar
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/TLS3.5/!svn/ver/408/branches/culc2016/culcleasing/WebRoot/WEB-INF/lib/poi-excelant-3.9-20121203.jar
+END
+commons-fileupload-1.1.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/WebRoot/WEB-INF/lib/commons-fileupload-1.1.1.jar
+END
+commons-logging-1.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/WebRoot/WEB-INF/lib/commons-logging-1.1.jar
+END
+poi-scratchpad-3.1-FINAL-20080629.jar
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/WebRoot/WEB-INF/lib/poi-scratchpad-3.1-FINAL-20080629.jar
+END
+standard.jar
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/WebRoot/WEB-INF/lib/standard.jar
+END
+application.jar
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/WebRoot/WEB-INF/lib/application.jar
+END
+utility.jar
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/WebRoot/WEB-INF/lib/utility.jar
+END
+xalan.jar
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/WebRoot/WEB-INF/lib/xalan.jar
+END
+c3p0-0.9.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/WebRoot/WEB-INF/lib/c3p0-0.9.1.jar
+END
+saxpath.jar
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/WebRoot/WEB-INF/lib/saxpath.jar
+END
+mailer.jar
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/WebRoot/WEB-INF/lib/mailer.jar
+END
+saaj.jar
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/WebRoot/WEB-INF/lib/saaj.jar
+END
+dom.jar
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/WebRoot/WEB-INF/lib/dom.jar
+END
+org.springframework.web.servlet-3.1.1.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/TLS3.5/!svn/ver/406/branches/culc2016/culcleasing/WebRoot/WEB-INF/lib/org.springframework.web.servlet-3.1.1.RELEASE.jar
+END
+session.jar
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/WebRoot/WEB-INF/lib/session.jar
+END
+hibernate3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/TLS3.5/!svn/ver/322/branches/culc2016/culcleasing/WebRoot/WEB-INF/lib/hibernate3.jar
+END
+xfire-all-1.2.6.jar
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/TLS3.5/!svn/ver/323/branches/culc2016/culcleasing/WebRoot/WEB-INF/lib/xfire-all-1.2.6.jar
+END
+poi-3.9-20121203.jar
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/TLS3.5/!svn/ver/408/branches/culc2016/culcleasing/WebRoot/WEB-INF/lib/poi-3.9-20121203.jar
+END
+org.springframework.web.portlet-3.1.1.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/TLS3.5/!svn/ver/406/branches/culc2016/culcleasing/WebRoot/WEB-INF/lib/org.springframework.web.portlet-3.1.1.RELEASE.jar
+END
+request.jar
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/WebRoot/WEB-INF/lib/request.jar
+END
+poi-3.7-20101029.jar
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/WebRoot/WEB-INF/lib/poi-3.7-20101029.jar
+END
+commons-lang-2.4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/WebRoot/WEB-INF/lib/commons-lang-2.4.jar
+END
+sax.jar
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/WebRoot/WEB-INF/lib/sax.jar
+END
+commons-logging-1.0.4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/WebRoot/WEB-INF/lib/commons-logging-1.0.4.jar
+END
+nosms.jar
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/WebRoot/WEB-INF/lib/nosms.jar
+END
+org.springframework.web-3.1.1.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/TLS3.5/!svn/ver/406/branches/culc2016/culcleasing/WebRoot/WEB-INF/lib/org.springframework.web-3.1.1.RELEASE.jar
+END
+jsp-api.jar
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/WebRoot/WEB-INF/lib/jsp-api.jar
+END

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/TLS3.5/!svn/ver/321/branches/culc2016/culcleasing/src/com/service
+END
+SMSService.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/src/com/service/SMSService.java
+END
+InterEvidence.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/src/com/service/InterEvidence.java
+END
+YYSqlTableUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/TLS3.5/!svn/ver/321/branches/culc2016/culcleasing/src/com/service/YYSqlTableUtil.java
+END
+YYProjInfoService.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/TLS3.5/!svn/ver/321/branches/culc2016/culcleasing/src/com/service/YYProjInfoService.java
+END
+SMSThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/src/com/service/SMSThread.java
+END
+YYFundPlanService.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/TLS3.5/!svn/ver/540/branches/culc2016/culcleasing/src/com/service/YYFundPlanService.java
+END
+YYSqlGenerateUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/TLS3.5/!svn/ver/321/branches/culc2016/culcleasing/src/com/service/YYSqlGenerateUtil.java
+END
+GeneContractNetFlowService.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/src/com/service/GeneContractNetFlowService.java
+END

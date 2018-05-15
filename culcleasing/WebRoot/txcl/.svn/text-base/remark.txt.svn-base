@@ -1,0 +1,150 @@
+
+调息
+
+
+1）首先查询所有待调息的数据，点击分配的时候
+
+[st_adjust_interest_proj]
+
+sqlstr="insert into adjust_interest_proj(adjust_id,proj_id,adjust_flag,creator,create_date,method) select '"+czid+"','"+proj_id+"','否','"+dqczy+"','"+curr_date+"','是'";
+
+adjyst_flag -- 标志是否待调息
+
+method - 在山重分规则、不规则，这里话 写租金测算方式
+
+
+
+2）点击执行调息的时候
+
+
+源代码：
+String status="";
+sqlstr = "select id from fund_rent_plan where plan_status=0 and plan_date<getdate() and proj_id='"+proj_id+"'";
+rs = db.executeQuery(sqlstr);
+status=rs.next()?"逾期":"正常";
+
+--判断当前 项目是否逾期
+
+//插入proj_change_tx
+sqlstr="insert into proj_change_tx(proj_id,left_rent,left_interest,left_corpus,un_receive_amount,";
+sqlstr+=" fund_status,adjust_date,adjust_id) ";
+sqlstr+=" select proj_id,left_rent,left_interest, ";
+sqlstr+=" left_corpus,un_received_amount,'"+status+"','"+curr_date+"','"+czid+"' from dbo.v_leftrent_info";
+sqlstr+=" where proj_id='"+proj_id+"'";
+db.executeUpdate(sqlstr);
+
+
+proj_change_tx -- 山重有调息报表，里面会记录剩余租金、剩余利息、剩余本金、未收期次 -- 财务做账需要
+
+
+//调息处理
+sqlstr="exec tx '"+czid+"','"+proj_id+"'";
+db.executeUpdate(sqlstr);
+
+-- 存储过程重要
+
+==================
+
+		--调整前偿还计划插入调息历史
+		insert into fund_rent_adjust_interest_his(proj_id,rent_list,plan_status,plan_date,eptd_rent,rent,corpus,year_rate,interest,rent_overage,corpus_overage,interest_overage,penalty,penalty_overage,rent_type,rent_adjust,modify_reason,adjust_id,adjust_flag)
+		select proj_id,rent_list,plan_status,plan_date,eptd_rent,rent,corpus,year_rate,interest,rent_overage,corpus_overage,interest_overage,penalty,penalty_overage,rent_type,rent_adjust,'调息',@adjust_id,'前' from fund_rent_plan
+		where proj_id=@proj_id
+		
+		--调息前利率,调息后利率
+		select @before_rate=isnull(year_rate,0) from fund_rent_plan where proj_id=@proj_id and rent_list=@rent_list_start
+		--set @after_rate=@before_rate/@base_rate*@base_adjust_rate
+		--if @after_rate-@base_adjust_rate<@rate_limit
+		set @after_rate=@base_adjust_rate+@rate_limit
+
+		--剩余本金,租金间隔,剩余期数,调整前租金总额
+		set @period_type='0'
+		select @lease_interval=isnull(lease_interval,0)
+		from proj_condition where proj_id=@proj_id
+		select @rem_corpus=isnull(sum(corpus),0),@rem_rent_list=count(*),@adjust_amt=isnull(sum(rent),0) from fund_rent_plan where proj_id=@proj_id and rent_list>=@rent_list_start
+
+		
+		--pmt公式计算出每期租金
+		set @rent=dbo.getPmt(@after_rate/100/12*@lease_interval,@rem_rent_list,@rem_corpus,0,@period_type)
+		set @rent=round(@rent,0)
+		set @rent_overage=@rent*@rem_rent_list
+		set @adjust_amt=@rent_overage-@adjust_amt
+		set @adjust_amt=round(@adjust_amt,0)
+		》》》》》》》》》》》》》》》
+		
+		--调整交易结构
+		update proj_condition set year_rate=@after_rate,total_amt=
+		(select isnull(sum(rent),0) from fund_rent_plan where proj_id=@proj_id)+head_amt
+		where proj_id=@proj_id
+		--调整交易临时结构
+		update proj_condition_temp set year_rate=@after_rate,total_amt=
+		(select isnull(sum(rent),0) from fund_rent_plan where proj_id=@proj_id)+head_amt
+		where proj_id=@proj_id
+		--修改调息项目表
+		update adjust_interest_proj set adjust_flag='是',adjust_amt=@adjust_amt,before_rate=@before_rate,after_rate=@after_rate,rent_list_start=@rent_list_start
+		where adjust_id=@adjust_id and proj_id=@proj_id
+		--调整后偿还计划插入调息历史
+		insert into fund_rent_adjust_interest_his(proj_id,rent_list,plan_status,plan_date,eptd_rent,rent,corpus,year_rate,interest,rent_overage,corpus_overage,interest_overage,penalty,penalty_overage,rent_type,rent_adjust,modify_reason,adjust_id,adjust_flag)
+		select proj_id,rent_list,plan_status,plan_date,eptd_rent,rent,corpus,year_rate,interest,rent_overage,corpus_overage,interest_overage,penalty,penalty_overage,rent_type,rent_adjust,'调息',@adjust_id,'后' from fund_rent_plan
+		where proj_id=@proj_id
+		
+==================
+
+
+//更新
+sqlstr = "update proj_change_tx set adjust_interest=";
+sqlstr += "(select adjust_amt from adjust_interest_proj where proj_id='"+proj_id+"' and adjust_id='"+czid+"')";
+sqlstr += "	where proj_id='"+proj_id+"' and adjust_id='"+czid+"'";
+db.executeUpdate(sqlstr);	
+
+-- 调息后，利息变化的值 
+
+
+
+3）点击调息撤销的时候  (必须租金没有再次核销前)
+
+源码：
+
+//调息前历史记录覆盖调息后偿还计划表
+		sqlstr="delete from fund_rent_plan where proj_id='"+proj_id+"'";
+System.out.println("11111"+sqlstr);
+		db.executeUpdate(sqlstr);
+		sqlstr="insert into fund_rent_plan(proj_id,rent_list,plan_status,plan_date,eptd_rent,rent,corpus,year_rate,interest,rent_overage,corpus_overage,interest_overage,penalty_overage,penalty,rent_type,rent_adjust) ";
+		sqlstr+="select proj_id,rent_list,plan_status,plan_date,eptd_rent,rent,corpus,year_rate,interest,rent_overage,corpus_overage,interest_overage,penalty_overage,penalty,rent_type,rent_adjust from fund_rent_adjust_interest_his where adjust_id='"+czid+"' and proj_id='"+proj_id+"' and modify_reason='调息' and adjust_flag='前'";
+//System.out.println("22222"+sqlstr);		
+db.executeUpdate(sqlstr);
+
+		//sqlstr="update adjust_interest_proj set adjust_flag='否',adjsut_amt=0,before_rate=0,after_rate=0 where adjust_id='"+czid+"' and proj_id='"+proj_id+"'";
+		sqlstr="delete from adjust_interest_proj where adjust_id='"+czid+"' and proj_id='"+proj_id+"'";
+//System.out.println("344444"+sqlstr);		
+db.executeUpdate(sqlstr);
+		sqlstr="delete from proj_change_tx where proj_id='"+proj_id+"' and adjust_id='"+czid+"'";
+		db.executeUpdate(sqlstr);	
+
+		//调整交易结构中租金总额
+//select base_adjust_rate from dbo.base_adjust_interest where id=25  select top 1 year_rate from fund_rent_plan where where proj_id='"+proj_id+"' order by year_rate desc
+		sqlstr="update proj_condition set year_rate=(select base_adjust_rate from dbo.base_adjust_interest where id='"+czid+"'),";
+		sqlstr+="total_amt=((select isnull(sum(rent),0) from fund_rent_plan where proj_id='"+proj_id+"')+head_amt) where proj_id='"+proj_id+"'";
+		db.executeUpdate(sqlstr);
+		//调整交易结构临时表中租金总额
+		sqlstr="update proj_condition set year_rate=(select base_adjust_rate from dbo.base_adjust_interest where id='"+czid+"'),";
+		sqlstr+=" total_amt=((select isnull(sum(rent),0) from fund_rent_plan where proj_id='"+proj_id+"')+head_amt) where proj_id='"+proj_id+"'";
+		db.executeUpdate(sqlstr);
+
+		//撤销处理
+		sqlstr="delete from fund_rent_adjust_interest_his where adjust_id='"+czid+"' and proj_id='"+proj_id+"'";
+//System.out.println("3333"+sqlstr);
+		db.executeUpdate(sqlstr);
+		
+=====
+
+		
+
+
+
+
+
+
+
+
+
+

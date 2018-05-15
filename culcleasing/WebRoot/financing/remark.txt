@@ -1,0 +1,26 @@
+
+融资模块使用的Jsp
+
+1)基础信息配置
+
+2)流程操作界面
+
+3)融资报表
+
+
+
+
+
+--授信单位表
+create table financing_config_unit
+(
+id int primary key identity(1,1),
+unit_code varchar(20),--授信单位英文简称
+unit_name varchar(200),--授信单位名称
+unit_property varchar(200),--授信单位属性
+
+creator varchar(50),
+create_date datetime,
+modifactor varchar(50),
+modify_date datetime
+)

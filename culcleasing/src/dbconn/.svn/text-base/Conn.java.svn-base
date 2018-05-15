@@ -1,0 +1,122 @@
+package dbconn;
+
+//import java.sql.Connection;
+//import java.sql.DriverManager;
+//import java.sql.ResultSet;
+//import java.sql.SQLException;
+//import java.sql.Statement;
+//import java.io.PrintStream;
+import java.sql.Connection;
+import java.sql.ResultSet;
+import java.sql.Statement;
+
+import javax.naming.Context;
+import javax.naming.InitialContext;
+import javax.sql.DataSource;
+
+/**
+ * 连接对象
+ * 
+ * @author JavaJeffe
+ * 
+ * date ---- 12:49:28 PM
+ */
+public class Conn {
+//	private static String DRIVER = "com.microsoft.sqlserver.jdbc.SQLServerDriver";// 
+//	private static String URL = "jdbc:sqlserver://db.culc.com:1433;databasename=culcleasing";// 
+//	private static String USER = "sa";// 
+//	private static String PWD = "testsa";// 
+
+//	private Connection conn = null;
+//	private Statement stmt = null;
+//	private ResultSet rs = null;
+
+//	static {// 静态代码块执行一次
+//		try {
+//			Class.forName(DRIVER);
+//		} catch (ClassNotFoundException e) {
+//			e.printStackTrace();
+//		}
+//	}
+
+//	public Conn() {
+//		conn = null;
+//		stmt = null;
+//		try {
+//			conn = DriverManager.getConnection(URL, USER, PWD);
+//			stmt = conn.createStatement();
+//		} catch (SQLException e) {
+//			e.printStackTrace();
+//		}
+//
+//	}
+	private Connection conn;
+	  private Statement stmt;
+	  private ResultSet rs;
+	  private String dataSource;
+
+	  public Conn()
+	  {
+	    this.conn = null;
+	    this.stmt = null;
+	    this.rs = null;
+	    this.dataSource = "java:comp/env/jdbc/culcleasing";
+	    try
+	    {
+	      Context ctx = new InitialContext();
+	      System.out.println("====>ERP DataSource Object Create<=====");
+	      DataSource ds = (DataSource)ctx.lookup(this.dataSource);
+	      this.conn = ds.getConnection();
+	      this.stmt = this.conn.createStatement(1005, 1008);
+	    }
+	    catch (Exception e)
+	    {
+	      System.err.println(e.getMessage());
+	    }
+	  }
+
+	/**
+	 * 返回结果集
+	 * 
+	 * @param sql
+	 * @return
+	 * @throws Exception
+	 */
+	public ResultSet executeQuery(String sql) throws Exception {
+		System.out.println("dbconnSQL="+sql);
+		return stmt.executeQuery(sql);
+	}
+
+	/**
+	 * 执行更新操作
+	 * 
+	 * @param sql
+	 * @return
+	 * @throws Exception
+	 */
+	public int executeUpdate(String sql) throws Exception {
+		return stmt.executeUpdate(sql);
+	}
+
+	/**
+	 * 关闭资源
+	 */
+	public void close() {
+		try {
+			if (rs != null)
+				rs.close();
+			if (stmt != null)
+				stmt.close();
+			if (conn != null)
+				conn.close();
+			System.out.println("====>!!ERP DataSource Object close!!<=====");
+		} catch (Exception e) {
+			System.err.println(e.getMessage());
+		}
+	}
+	public Connection getConnection( ){
+		return this.conn;
+	}
+	
+	
+}

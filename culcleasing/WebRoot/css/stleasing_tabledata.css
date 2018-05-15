@@ -1,0 +1,20 @@
+.tr_odd{
+ background-color : #F7F7F7; /* #F7F7F7; */ /* #FFEFAD  #F7F3F7 */
+}
+.tr_even{
+ background-color : #F7F3F7;
+}
+.selected{
+ background-color : #F7B600; 
+}
+.noNewLine{/* 强制不换行 */
+ white-space:nowrap; /* word-break:keep-all; */
+}
+.autoNewLine{ /* 自动换行 */
+ word-break: break-all;
+ overflow: hidden; 
+ text-overflow:ellipsis;
+}
+.yt{
+ FILTER: progid:DXImageTransform.Microsoft.Gradient(startColorStr='red', endColorStr='#FFFFFF', gradientType='0');
+}

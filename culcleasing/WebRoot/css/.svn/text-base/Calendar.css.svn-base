@@ -1,0 +1,94 @@
+/* CSS Document */
+  /*===================================================================*/    
+  /*                      TD.Calendar ¿‡                                 */   
+  /*                          									       */
+  /*===================================================================*/ 
+ body{
+	
+	margin:0px;
+	padding:0px;
+}
+   .Calendar_Date_Table
+         { border:1px solid #506d97; } 
+         
+   .Calendar_Top_Table
+        { 
+			background-color: #76a2de;
+		}
+         
+   .Calendar_Date_Title
+         { 
+           height:18px;
+           font-family:Arial;
+           text-align:center ;
+           color:#000000; 
+		   border-top:1px solid #506d97;
+           border-bottom:1px solid #76a2de;
+           border-left:1px solid #76a2de;
+           background-color:#CAE2EB;
+
+           } 
+         
+   .Calendar_Date_Common
+         {
+          height:18px;
+          text-align:center; 
+          border-bottom:1px solid #d6e3f5;
+          border-left:1px solid #d6e3f5;
+          background-color:#ffffff;
+		  
+         }
+         
+   .Calendar_Date_WeekEnd
+         {
+          height:18px;
+          color:#000000;
+          text-align:center; 
+          border-bottom:1px solid #d6e3f5;
+          border-right:1px solid #d6e3f5;
+          background-color:#efeee8;
+		  
+            }     
+   
+   .Calendar_Top_Title
+        { 
+          font-family:Arial;
+           font-size:14px ;  
+           color:#ffffff;
+           text-align:center;
+           font-weight:bold;
+		   
+          } 
+    
+   .Calendar_Date_Link 
+      {
+	  position:relative;
+        font-size:13px ; 
+        font-family:Arial; 
+        color:#0034b1;
+        text-decoration:none  ;
+		cursor:hand;
+		display:block;
+		height:100%;
+
+       } 
+           
+   .Calendar_Date_Link:hover 
+      {
+        font-size:13px ; 
+        font-family:Arial; 
+        color:#ffffff;
+        background-color:#76a2de;
+        text-decoration:none      
+      }  
+       
+   Font.Calendar_Date_Gray
+   
+        {color:#ffffff}           
+        
+   Font.Calendar_Date_Today
+   
+        {color:red}
+        
+        
+

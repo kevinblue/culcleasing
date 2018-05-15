@@ -1,0 +1,10 @@
+<attach event="onfocus" onevent="myfocus()"/>
+<script language="Javascript">
+
+
+function myfocus(){
+	if(event.altKey)click();
+	this.blur();
+}
+</script>
+ 

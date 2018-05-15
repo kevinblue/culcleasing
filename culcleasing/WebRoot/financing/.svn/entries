@@ -1,0 +1,122 @@
+10
+
+dir
+482
+http://dev.tenwa.com.cn:8082/svn/TLS3.5/branches/culc2016/culcleasing/WebRoot/financing
+http://dev.tenwa.com.cn:8082/svn/TLS3.5
+
+
+
+2017-06-22T16:44:08.046875Z
+314
+Toybaby
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+55a638a6-d3e6-1142-8ffa-839f6fa0e73f
+
+financing_unit_config
+dir
+
+refund_change_read
+dir
+
+flowStart
+dir
+
+financing_refundtype_config
+dir
+
+refund_change
+dir
+
+financing_refund_read
+dir
+
+financing_drawings
+dir
+
+tx
+dir
+
+financing_loantype_config
+dir
+
+financing_rate_config
+dir
+
+financing_refund_make
+dir
+
+refund_tx
+dir
+
+remark.txt
+file
+
+
+
+
+2017-07-06T14:24:53.766941Z
+acf598ec7debb2d1df74fe458ab26118
+2017-06-22T16:44:08.046875Z
+314
+Toybaby
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+390
+
+financing_list_rate
+dir
+
+hl
+dir
+
+financing_amortize
+dir
+
+other_in
+dir
+
+financing_refund_upd
+dir
+
+financing_factorage
+dir
+
+other_out
+dir
+
+financing_refundtype_config_detail
+dir
+

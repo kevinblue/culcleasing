@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/TLS3.5/!svn/ver/537/branches/culc2016/culcleasing/src/com/invoiceSync/util
+END
+HTSqlTableUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/TLS3.5/!svn/ver/537/branches/culc2016/culcleasing/src/com/invoiceSync/util/HTSqlTableUtil.java
+END
+HangTianSqlGenerateUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/TLS3.5/!svn/ver/537/branches/culc2016/culcleasing/src/com/invoiceSync/util/HangTianSqlGenerateUtil.java
+END
+HTSqlGenerateUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/TLS3.5/!svn/ver/537/branches/culc2016/culcleasing/src/com/invoiceSync/util/HTSqlGenerateUtil.java
+END
+HangTianInvoiceOperationUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/TLS3.5/!svn/ver/537/branches/culc2016/culcleasing/src/com/invoiceSync/util/HangTianInvoiceOperationUtil.java
+END

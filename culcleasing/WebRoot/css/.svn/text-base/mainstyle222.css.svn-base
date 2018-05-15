@@ -1,0 +1,525 @@
+<!--
+/*框架页样式表 王晓东 081016 default
+
+*/
+html,body {
+height:100%;
+margin:0px;
+padding:0px;
+border:0px;
+overflow:hidden;
+}
+
+/*框架样式配置
+
+*/
+.myframe {
+baobao:expression(this.borderColor="#d6e2f3");
+} 
+
+frame.fra_style_1 {
+border:1px solid #8db2e3;
+}
+
+frame.fra_style_2 {
+border:1px solid #8db2e3;
+}
+
+/*目录树样式
+
+*/
+tr.tree_title_txt{
+  background-image:url(../images/pageleft_topbg_1.gif);
+}
+
+td.tree_title_txt {
+font-weight:bold;
+height:25px;
+color:#154288;
+text-indent:12px;
+}
+
+td,th {font-size:12px}
+body {font-size:12px}
+a {
+text-decoration:none;color:blue;
+}
+a:hover {text-decoration:underline;color:red}
+table,tr,td.spacing {line-height:16px;}
+
+body.pagerightborder { 
+}
+
+table.title_top {
+border:1 solid #8db2e3;
+background:#f4f9ff;
+}
+
+div.mainplace {
+margin:0px;
+padding:10px;
+height:100%;
+overflow:auto;
+}
+
+/*主菜单
+
+*/
+td.main1 {
+background-image:url(../images/bg_line2.gif);
+height:27px;
+}
+
+/*主表格
+
+*/
+table.maintab {
+background:#8db2e3; 
+border-right: 10px solid #ff0000; 
+}
+
+td.maintab {
+background-image:url(../images/bg_line2.gif);
+height:26px;
+text-indent:4px;
+}
+
+td.maintab_td {
+border-left: 1px solid #8db2e3; 
+border-right: 1px solid #8db2e3; 
+border-bottom: 1px solid #8db2e3; 
+vertical-align:top;
+}
+
+
+/*选择卡宽度
+
+*/
+#warp { 
+    width:100%; 
+} 
+
+div.jianju {
+margin-top:0px;
+}
+
+/*TAB样式 开始
+
+*/ 
+
+div.selmainplace {
+margin:0px 0px 0px 10px;
+overflow:auto;
+}
+
+ul.domtabs { 
+    height:29px;
+    list-style: none; 
+    font-size: 12px; 
+    border-bottom: 1px solid #8db2e3; 
+    margin:0px; 
+    padding:0px; 
+    text-align:left; 
+    text-indent:12px;
+    margin-bottom:10px;
+    background:#d6e2f3;
+} 
+
+ul.domtabs li { 
+    display: inline;
+} 
+ul.domtabs a:link, 
+ul.domtabs a:visited, 
+ul.domtabs a:active, 
+ul.domtabs a:hover { 
+    text-decoration: none; 
+    padding: 2px 5px 4px 5px; 
+    position: relative; 
+    bottom: -10px; 
+    color: #000000;
+    } 
+    
+ul.domtabs li.active a:link, 
+ul.domtabs li.active a:visited, 
+ul.domtabs li.active a:active, 
+ul.domtabs li.active a:hover { 
+    background:#ffffff; 
+    padding: 4px 10px 4px 10px; 
+    border: 1px solid #8db2e3; 
+    border-bottom: 1px solid #ffffff; 
+    position: relative; 
+    bottom: -10px; 
+    color: #154288; 
+    font-weight:bold;
+} 
+
+ul.domtabs a:hover { 
+    text-decoration:none; 
+    color: #154288; 
+} 
+ul.domtabs li.active a:hover { 
+    text-decoration: none; 
+} 
+
+/*------表格页--------
+
+*/
+
+td.tab_title {
+		height:25px;
+		border: 0px solid; 
+    background-color:#d6e2f3;
+}
+
+td.tab_title_txt {
+		height:25px;
+		border: 1px solid #8db2e3; 
+    border-bottom: 1px solid #ffffff; 
+    background-color:#ffffff;
+    font-weight:bold;
+		color:#154288;
+		text-indent:12px;
+		vertical-align:bottom;
+		padding-bottom:2px;
+}
+
+td.tab_title_txt_b {
+    border-bottom: 1px solid #8db2e3; 
+}
+
+/*主表格显示区
+
+*/
+table.maintab {
+border:0px;
+margin:0px;
+border-collapse:collapse;
+color:#000000;
+border-style:solid; 
+border-width:0px;
+}
+
+td.maintab_title {
+text-align:left;
+padding:0px;
+color:#ffffff;
+background-color:#386E9C;
+background-repeat: no-repeat;
+background-position: 0% 0%;
+height:28px;
+}
+
+table.maintab_title_tab {
+text-indent:10px;
+padding:0px;
+color:#ffffff;
+background-repeat: no-repeat;
+background-position: 100% 0%;
+height:28px;
+}
+
+.maintable{
+ border:1 solid #8db2e3;
+ background:#f4f9ff;
+}
+
+.maintab_content {
+padding:0px;
+border-style:solid; 
+border-width:0px;
+border-color:#154288; 
+}
+
+table.maintab_content_table {
+ border-collapse:collapse;
+ padding:0px;
+}
+
+table.maintab_content_table tr {
+  padding:0px;
+}
+
+
+/*
+table.maintab_content_table th { 
+  font-weight:normal; 
+  border-right:1px solid #ff0000;
+}
+*/
+
+table.maintab_content_table td {
+padding:3px;
+text-indent:3px;
+border: 1px solid #EDEDED; 
+height:25px;
+z-index:-1;
+}
+
+tr.maintab_content_table_title_static{
+position:static;
+}
+ 
+tr.maintab_content_table_title{
+position:relative;
+top:expression(this.offsetParent.scrollTop);
+background-color: #ffffff;
+} 
+
+th.maintab_content_table_title_th {
+cursor:hand;
+text-align:center;
+font-weight:normal;
+padding:0px 10px 0px 10px;
+color:#154288;
+background-color:#D8E6F6;
+border-top: 1 solid #ffffff;
+border-bottom: 1 solid #ffffff;
+border-right: 1 solid #ffffff;
+height:25px;
+}
+
+
+
+/*表单控制
+
+*/
+input.inputstyle_1,.liststyle {
+height:20px;
+width:100px;
+border-style:solid;
+border-color:#D5D5D5;
+border-width: 1px;
+}
+
+input.inputstyle_1m{
+height:20px;
+width:81px;
+border-style:solid;
+border-color:#D5D5D5;
+border-width: 1px;
+}
+
+input.inputstyle_2 {
+height:18px;
+width:18px;
+border-style:solid;
+border-color:#D5D5D5;
+border-width: 1px;
+}
+
+textarea.inputstyle_3 {
+height:100px;
+width:430px;
+border-style:solid;
+border-color:#D5D5D5;
+border-width: 1px;
+}
+
+/*按钮样式
+
+*/
+.btn3_mouseout {
+height:22px;
+width:60px;
+border-style:solid;
+border-color:#8db2e3;
+border-width: 1px;
+PADDING:2px;
+PADDING-bottom:0px;
+FONT-SIZE: 12px;
+COLOR:black;
+FILTER: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#ffffff, EndColorStr=#d6e2f3);  CURSOR:hand;
+}
+
+.btn3_mouseover {
+height:22px;
+width:60px;
+border-style:solid;
+border-color:#154288;
+border-width: 1px;
+PADDING:2px;
+PADDING-bottom:0px;
+FONT-SIZE: 12px;
+COLOR:black;
+FILTER: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#ffffff, EndColorStr=#d6e2f3);
+CURSOR:hand;
+}
+
+.btnc_mouseout {
+border-style:solid;
+border-width: 1px;
+border-color:#EBE9ED;
+PADDING:1px;
+text-align:center;
+letter-spacing:5px;
+}
+
+.btnc_mouseout a  {
+text-decoration:none;color:#000000;
+CURSOR:hand;
+}
+
+.btnc_mouseover {
+letter-spacing:5px;
+text-align:center;
+border-style:solid;
+border-color:#8db2e3;
+border-width: 1px;
+PADDING:1px;
+FONT-SIZE: 12px;
+COLOR:black;
+FILTER: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#ffffff, EndColorStr=#d6e2f3);
+CURSOR:hand;
+}
+
+.btnc_mouseover a:hover  {
+text-decoration:none;color:#000000;
+CURSOR:hand;
+}
+
+/*操作菜单样式
+
+*/
+.menu {
+width:100px;
+text-align:left;
+BORDER: #8db2e3 1px solid;
+VISIBILITY: hidden;
+/*POSITION: absolute;*/
+margin-top:-92px;
+BACKGROUND-COLOR: #ffffff;
+}
+A.menuItem { 
+PADDING-RIGHT: 12px;
+PADDING-LEFT: 8px;
+PADDING-BOTTOM: 2px;
+PADDING-TOP: 5px;
+DISPLAY: block;
+COLOR: #000000;
+TEXT-DECORATION: none
+}
+A.menuItem:hover {
+	BACKGROUND-COLOR:#D6E3F2;
+	text-decoration:none;
+	color:#000000;
+	CURSOR:hand;
+}
+
+/*说明和注释样式
+
+*/
+.note_txt {
+color:#808080;
+font-style:italic;
+}
+
+/*追加样式，用于原样式(TW_mainCss.css)的叠加
+
+*/
+td.Form_tab {
+background:#8db2e3;
+color:#154288;
+} 
+
+td.tab_subline {
+background:#8db2e3;
+height:3px;   
+}
+
+.tabBody {
+border:1 solid #8db2e3;
+background:#ffffff;
+}
+
+/*左侧菜单反白样式
+
+*/
+a.menu_rootlink {
+color:#000000; 
+text-decoration:none;
+highLightColor:#154288;
+}
+            
+a.menu_itemlink {
+color:#000000;
+text-decoration:none;
+highLightColor:#154288;
+} 
+
+/*选择卡样式，从publicevent.js调用
+
+*/
+.seltab_s1 {
+font-weight:bold;
+cursor:hand;
+text-align:center;
+border-left:2px solid #ffffff;
+background:#8db2e3;
+color:#154288;
+padding-top:4;
+padding-bottom:2;   
+}
+
+.seltab_s2 {
+cursor:hand;
+text-align:center;
+border-left:2px solid #ffffff;
+background:#DADDE5;
+color:#000000;
+padding-top:4;
+padding-bottom:2;  
+}
+
+/* popup */
+.popupbody{
+ border: 2 outset #ffffff;
+ border-color:#F4F9FF;
+ background:#F4F9FF;
+}
+
+.popupbody td{
+height:22;border-bottom:1 solid #CDCDCD; cursor:default;
+highLightColor:#154288;vertical-align:middle;padding-top:3px; 
+}
+
+.resizeDivClass{
+position:relative;
+background-color:red;
+width:2;
+z-index:1;
+left:expression(this.parentElement.offsetWidth-1);
+cursor:e-resize;
+}
+
+/*线框样式
+
+*/
+fieldset {
+border : 1px solid #D5D5D5;
+TEXT-ALIGN: center;
+}
+ 
+ .edittableBorder{
+   border-right: 1px solid #808080; 
+   border-bottom: 1px solid #808080;  
+   behavior:url("/report/css/tw_edittable.htc");
+ }
+ 
+ .edittableBorder td
+ {
+   border-left: 1px solid #808080; 
+   border-top: 1px solid #808080;
+   background:#D6E3F2;
+   cursor:default; 
+ }
+ 
+/*资源文件路径：
+\\192.168.0.19\d$\IBM\Websphere\profiles\wp_profile\installedApps\porta\TenwaServices_war.ear\TenwaServices.war\images
+调用使用“tenwa\文件名”调用
+
+
+色系配置页面：
+\\192.168.0.19\d$\IBM\Websphere\profiles\wp_profile\installedApps\porta\tw_ReportCenter_war.ear\tw_ReportCenter.war\kmjsp\app\config.jsp
+
+*/
+--> 

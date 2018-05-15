@@ -1,0 +1,203 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/TLS3.5/!svn/ver/375/branches/culc2016/culcleasing/src/com/webService/service
+END
+GlobalInterestXml.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/TLS3.5/!svn/ver/521/branches/culc2016/culcleasing/src/com/webService/service/GlobalInterestXml.java
+END
+GlobalInterestService.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/TLS3.5/!svn/ver/483/branches/culc2016/culcleasing/src/com/webService/service/GlobalInterestService.java
+END
+GlobalInterestSubsidyXml.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/TLS3.5/!svn/ver/483/branches/culc2016/culcleasing/src/com/webService/service/GlobalInterestSubsidyXml.java
+END
+GlobalInterestSubsidyService.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/TLS3.5/!svn/ver/483/branches/culc2016/culcleasing/src/com/webService/service/GlobalInterestSubsidyService.java
+END
+XmlAnalysis.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/TLS3.5/!svn/ver/375/branches/culc2016/culcleasing/src/com/webService/service/XmlAnalysis.java
+END
+IService4BillPortType.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/TLS3.5/!svn/ver/326/branches/culc2016/culcleasing/src/com/webService/service/IService4BillPortType.java
+END
+FinancialPaiedXml.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/TLS3.5/!svn/ver/521/branches/culc2016/culcleasing/src/com/webService/service/FinancialPaiedXml.java
+END
+GlobalBjjsYYXml.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/TLS3.5/!svn/ver/521/branches/culc2016/culcleasing/src/com/webService/service/GlobalBjjsYYXml.java
+END
+GlobalBjjsYYService.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/TLS3.5/!svn/ver/483/branches/culc2016/culcleasing/src/com/webService/service/GlobalBjjsYYService.java
+END
+IService4BillSOAP11BindingStub.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/TLS3.5/!svn/ver/326/branches/culc2016/culcleasing/src/com/webService/service/IService4BillSOAP11BindingStub.java
+END
+GlobalLxjsXml.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/TLS3.5/!svn/ver/521/branches/culc2016/culcleasing/src/com/webService/service/GlobalLxjsXml.java
+END
+GlobalLxjsService.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/TLS3.5/!svn/ver/483/branches/culc2016/culcleasing/src/com/webService/service/GlobalLxjsService.java
+END
+GlobalReceiveService.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/TLS3.5/!svn/ver/483/branches/culc2016/culcleasing/src/com/webService/service/GlobalReceiveService.java
+END
+GlobalReceiveXml.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/TLS3.5/!svn/ver/521/branches/culc2016/culcleasing/src/com/webService/service/GlobalReceiveXml.java
+END
+SqlGenerateFIUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/TLS3.5/!svn/ver/521/branches/culc2016/culcleasing/src/com/webService/service/SqlGenerateFIUtil.java
+END
+GlobalProjectEndService.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/TLS3.5/!svn/ver/483/branches/culc2016/culcleasing/src/com/webService/service/GlobalProjectEndService.java
+END
+GlobalProjectEndXml.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/TLS3.5/!svn/ver/521/branches/culc2016/culcleasing/src/com/webService/service/GlobalProjectEndXml.java
+END
+RequestNcServer.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/TLS3.5/!svn/ver/375/branches/culc2016/culcleasing/src/com/webService/service/RequestNcServer.java
+END
+IService4Bill.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/TLS3.5/!svn/ver/326/branches/culc2016/culcleasing/src/com/webService/service/IService4Bill.java
+END
+GlobalLxjsYYService.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/TLS3.5/!svn/ver/483/branches/culc2016/culcleasing/src/com/webService/service/GlobalLxjsYYService.java
+END
+GlobalLxjsYYXml.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/TLS3.5/!svn/ver/521/branches/culc2016/culcleasing/src/com/webService/service/GlobalLxjsYYXml.java
+END
+BillsReceivableXml.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/TLS3.5/!svn/ver/375/branches/culc2016/culcleasing/src/com/webService/service/BillsReceivableXml.java
+END
+GlobalFundPlanService.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/TLS3.5/!svn/ver/491/branches/culc2016/culcleasing/src/com/webService/service/GlobalFundPlanService.java
+END
+CreateWSClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/TLS3.5/!svn/ver/326/branches/culc2016/culcleasing/src/com/webService/service/CreateWSClient.java
+END
+GlobalBeforeComfirmXml.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/TLS3.5/!svn/ver/534/branches/culc2016/culcleasing/src/com/webService/service/GlobalBeforeComfirmXml.java
+END
+GlobalBeforeComfirmService.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/TLS3.5/!svn/ver/449/branches/culc2016/culcleasing/src/com/webService/service/GlobalBeforeComfirmService.java
+END
+GlobalPaiedService.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/TLS3.5/!svn/ver/462/branches/culc2016/culcleasing/src/com/webService/service/GlobalPaiedService.java
+END
+IService4BillLocator.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/TLS3.5/!svn/ver/491/branches/culc2016/culcleasing/src/com/webService/service/IService4BillLocator.java
+END
+FundPaymentPlanXml.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/TLS3.5/!svn/ver/521/branches/culc2016/culcleasing/src/com/webService/service/FundPaymentPlanXml.java
+END
+GlobalStartRentXml.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/TLS3.5/!svn/ver/483/branches/culc2016/culcleasing/src/com/webService/service/GlobalStartRentXml.java
+END
+GlobalStartRentService.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/TLS3.5/!svn/ver/413/branches/culc2016/culcleasing/src/com/webService/service/GlobalStartRentService.java
+END
+GlobalBjjsXml.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/TLS3.5/!svn/ver/521/branches/culc2016/culcleasing/src/com/webService/service/GlobalBjjsXml.java
+END
+GlobalBjjsService.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/TLS3.5/!svn/ver/521/branches/culc2016/culcleasing/src/com/webService/service/GlobalBjjsService.java
+END

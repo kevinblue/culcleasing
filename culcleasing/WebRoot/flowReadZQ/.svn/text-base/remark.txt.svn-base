@@ -1,0 +1,13 @@
+
+
+起租前流程公用的jsp只读界面
+
+
+1）paycond_read -- 资金计划只读
+
+2）paoj_mater_read -- 项目资料只读
+
+3）zjcs_cal_read --商务条件、租金测算只读
+
+
+

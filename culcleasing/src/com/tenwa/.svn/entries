@@ -1,0 +1,49 @@
+10
+
+dir
+330
+http://dev.tenwa.com.cn:8082/svn/TLS3.5/branches/culc2016/culcleasing/src/com/tenwa
+http://dev.tenwa.com.cn:8082/svn/TLS3.5
+
+
+
+2017-07-20T05:51:03.843750Z
+329
+wangwc
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+55a638a6-d3e6-1142-8ffa-839f6fa0e73f
+
+log
+dir
+
+leasing
+dir
+
+filter
+dir
+
+bean
+dir
+
+culc
+dir
+
+datasync
+dir
+
+util
+dir
+

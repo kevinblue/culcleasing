@@ -1,0 +1,79 @@
+
+CREATE TABLE [dbo].invoice_draw_info(
+	[id] [int] primary key IDENTITY(1,1) NOT NULL,
+	[glide_id] [varchar](50) NOT NULL,
+	[type] [varchar](50) NULL,
+	[is_sub] [varchar](50) NULL,
+	[flow_status] [varchar](50) NULL,
+	[status] [varchar](20) NULL,
+	[amt] [decimal](18, 2) NULL,
+	[amount_t] [int] NULL,
+
+	[amount_zj] [int] NULL,
+	[amount_fx] [int] NULL,
+	[amount_lx] [int] NULL,
+
+	[plan_date] [datetime] NULL,
+	[fact_date] [datetime] NULL,
+	[creator] [varchar](15) NULL,
+	[create_date] [datetime] NULL,
+	[modificator] [varchar](15) NULL,
+	[modify_date] [datetime] NULL
+)
+
+create table invoice_draw_detail
+(
+id int primary key identity(1,1),
+contract_id varchar(50),--合同编号
+begin_id varchar(50),--起租编号
+apply_id varchar(50),--申请单号
+rent_list int,
+pri_id int,
+invoice_type varchar(20),--发票类型
+draw_flag int,--是否领票 0 未 1 已领
+draw_date datetime,--发票领取时间
+[creator] [varchar](15) NULL,
+[create_date] [datetime] NULL,
+[modificator] [varchar](15) NULL,
+[modify_date] [datetime] NULL
+)
+
+--退回表
+CREATE TABLE [dbo].invoice_draw_info_t(
+	[id] [int] primary key IDENTITY(1,1) NOT NULL,
+	[glide_id] [varchar](50) NOT NULL,
+	[type] [varchar](50) NULL,
+	[is_sub] [varchar](50) NULL,
+	[flow_status] [varchar](50) NULL,
+	[status] [varchar](20) NULL,
+	[amt] [decimal](18, 2) NULL,
+	[amount_t] [int] NULL,
+
+	[amount_zj] [int] NULL,
+	[amount_fx] [int] NULL,
+	[amount_lx] [int] NULL,
+
+	[plan_date] [datetime] NULL,
+	[fact_date] [datetime] NULL,
+	[creator] [varchar](15) NULL,
+	[create_date] [datetime] NULL,
+	[modificator] [varchar](15) NULL,
+	[modify_date] [datetime] NULL
+)
+
+create table invoice_draw_detail_t
+(
+id int primary key identity(1,1),
+contract_id varchar(50),--合同编号
+begin_id varchar(50),--起租编号
+apply_id varchar(50),--申请单号
+rent_list int,
+pri_id int,
+invoice_type varchar(20),--发票类型
+draw_flag int,--是否领票 0 未 1 已领
+draw_date datetime,--发票领取时间
+[creator] [varchar](15) NULL,
+[create_date] [datetime] NULL,
+[modificator] [varchar](15) NULL,
+[modify_date] [datetime] NULL
+)

@@ -1,0 +1,31 @@
+#cwTop,#cwCellTopTit{
+	height:0px;
+	display:none;
+}
+#cwCellTop{
+	background:none;
+
+}
+body,#cwMain,#cwCell,#cwCellContent,.cwDataList{
+	border:0px; 
+	padding:0px;
+	margin:0px;
+	height:auto;
+}
+body{
+	background-color:#EEEAEE;
+}
+.cwDLHead{
+	background-color:#E6F1F7;
+	height:20px;
+}
+#cwCellContent{
+	overflow:visible;
+	padding:5px 0px 0px 15px
+}
+#cwCellContent2{
+clear:both;
+padding:0px 0px 15px 0px;
+
+
+}

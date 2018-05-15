@@ -1,0 +1,28 @@
+package com.test;
+
+
+public class Test {
+
+	public static void main(String[] args) throws Exception {
+
+		String proj_money="99,999,999,000";
+		proj_money=proj_money.replace(",","");
+		System.out.println(proj_money);
+//		String a=proj_money.replaceAll(",","");
+//		proj_money=a;
+//		System.out.println(proj_money);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

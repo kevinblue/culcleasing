@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/WebRoot/WEB-INF/classes
+END
+sysConfig.properties
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/WebRoot/WEB-INF/classes/sysConfig.properties
+END
+config.properties
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/WebRoot/WEB-INF/classes/config.properties
+END
+rr.txt
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/WebRoot/WEB-INF/classes/rr.txt
+END
+config.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/WebRoot/WEB-INF/classes/config.xml
+END
+log4j.properties
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/WebRoot/WEB-INF/classes/log4j.properties
+END
+host-config.properties
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/WebRoot/WEB-INF/classes/host-config.properties
+END
+clientCRM-config.properties
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/WebRoot/WEB-INF/classes/clientCRM-config.properties
+END

@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/src/com/rent/calc/bg
+END
+TransRate.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/src/com/rent/calc/bg/TransRate.java
+END
+CommUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/src/com/rent/calc/bg/CommUtil.java
+END
+RentDelayCalc.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/src/com/rent/calc/bg/RentDelayCalc.java
+END
+CopyOfRentCalc.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/src/com/rent/calc/bg/CopyOfRentCalc.java
+END
+FundRentTemp.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/src/com/rent/calc/bg/FundRentTemp.java
+END
+RentCalc.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/src/com/rent/calc/bg/RentCalc.java
+END
+ConditionTemp.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/src/com/rent/calc/bg/ConditionTemp.java
+END
+IrrCal.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/src/com/rent/calc/bg/IrrCal.java
+END
+RentDelayGraceCalc.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/src/com/rent/calc/bg/RentDelayGraceCalc.java
+END
+RentGraceCalc.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/src/com/rent/calc/bg/RentGraceCalc.java
+END
+AbnormalCalc.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/src/com/rent/calc/bg/AbnormalCalc.java
+END

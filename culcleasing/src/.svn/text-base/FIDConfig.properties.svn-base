@@ -1,0 +1,33 @@
+#Copyright (c) Boxcode Studio
+#Thu Apr 23 10:56:17 CST 2015
+startTaskGlobalReceive=on
+startTaskGloablTest=off
+delayTimeGlobalProjectEnd=10
+startTaskGlobalProjectEnd=on
+ruleGloalXIrr=7\:1\:0\:0
+startTaskGlobalXIrr=on
+startTaskGlobalInterestSubsidy=on
+startTaskGlobalPaied=on
+delayTimeGlobalReceive=10
+startTaskGlobalFundPlan=off
+startTaskGlobalInterest=on
+delayTimeGlobalStartRent=10
+periodTimeGlobalTest=60
+periodTimeGlobalReceive=60
+periodTimeGlobalInterestSubsidy=60
+periodTimeGlobalStartRent=60
+delayTimeGlobalPaied=10
+delayTimeGlobalFundPlan=10
+delayTimeGlobalInterest=10
+delayTimeGlobalTest=\=10
+periodTimeGlobalFundPlan=60
+delayTimeGlobalInterestSubsidy=10
+periodTimeGlobalInterest=60
+startTaskGlobalStartRent=on
+periodTimeGlobalPaied=60
+periodTimeGlobalProjectEnd=60
+startTaskGlobalConfirm=on
+periodTimeGlobalConfirm=60
+delayTimeGlobalConfirm=10
+
+

@@ -1,0 +1,28 @@
+<attach event="onmouseover" onevent="over()"/>
+<attach event="onmouseout" onevent="out()"/>
+<attach event="onmousedown" onevent="down()"/>
+<attach event="onmouseup" onevent="up()"/>
+<attach event="onfocus" onevent="myfocus()"/>
+<script language="Javascript">
+
+function over(){
+	style.background="#ffffff url(/nissineleasing/images/btn4_over.gif)";
+}
+function up(){
+	style.background="#ffffff url(/nissineleasing/images/btn4.gif)";
+
+}
+function out(){
+	up();
+}
+
+function down(){
+	style.background="#D1D7DA url(/nissineleasing/images/btn4_down.gif)";
+}
+
+
+function myfocus(){
+	blur()
+}
+</script>
+ 

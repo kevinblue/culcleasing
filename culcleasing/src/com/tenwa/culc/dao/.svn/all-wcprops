@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/src/com/tenwa/culc/dao
+END
+CustAccountDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/src/com/tenwa/culc/dao/CustAccountDao.java
+END
+BeginMediDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/src/com/tenwa/culc/dao/BeginMediDao.java
+END
+ProjMaterDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/src/com/tenwa/culc/dao/ProjMaterDao.java
+END
+RentPlanDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/src/com/tenwa/culc/dao/RentPlanDao.java
+END
+BeginDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/src/com/tenwa/culc/dao/BeginDao.java
+END
+ConditionMediDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/src/com/tenwa/culc/dao/ConditionMediDao.java
+END
+ConditionDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/src/com/tenwa/culc/dao/ConditionDao.java
+END
+FundChargeDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/src/com/tenwa/culc/dao/FundChargeDao.java
+END
+ProjInfoDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/src/com/tenwa/culc/dao/ProjInfoDao.java
+END
+RentCashDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/src/com/tenwa/culc/dao/RentCashDao.java
+END

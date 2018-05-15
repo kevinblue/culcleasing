@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/WebRoot/financing/tx
+END
+tx_fsi_add.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/WebRoot/financing/tx/tx_fsi_add.jsp
+END
+tx_showAll_wtx.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/WebRoot/financing/tx/tx_showAll_wtx.jsp
+END
+tx_showAll_ytx.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/WebRoot/financing/tx/tx_showAll_ytx.jsp
+END
+tx_executeTx.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/WebRoot/financing/tx/tx_executeTx.jsp
+END
+tx_record.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/WebRoot/financing/tx/tx_record.jsp
+END
+tx_fsi_save.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/WebRoot/financing/tx/tx_fsi_save.jsp
+END
+tx_showAll_ytxR.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/WebRoot/financing/tx/tx_showAll_ytxR.jsp
+END
+tx_showMainList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/WebRoot/financing/tx/tx_showMainList.jsp
+END
+tx_showMaintx.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/WebRoot/financing/tx/tx_showMaintx.jsp
+END
+txdb.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/TLS3.5/!svn/ver/314/branches/culc2016/culcleasing/WebRoot/financing/tx/txdb.jsp
+END

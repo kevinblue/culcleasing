@@ -1,0 +1,34 @@
+//05.04.29 SOMAX
+<attach event="onmouseover" onevent="over()"/>
+<attach event="onmouseout" onevent="out()"/>
+<attach event="onmousedown" onevent="down()"/>
+<script language="Javascript">
+var colorSp=this.style.background;
+var colorOver="#f0f7fd";
+var colorOut="#ffffff";
+var colorSelected="#d7e9f0";
+function over(){
+	if (style.background!=colorSelected){
+		style.background=colorOver;
+	}
+}
+function out(){
+	if (colorSp!=""&&style.background!=colorSelected){
+			style.background=colorSp;
+	}else{
+		if (this.style.background==""||this.style.background==colorOver){
+			style.background=colorOut;
+		}
+	}
+
+}
+
+function down(){
+	if (event.srcElement.parentElement.all.itemselect){
+		if(event.srcElement.name!="itemselect"){
+			event.srcElement.parentElement.all.itemselect.click();
+		}
+	}
+}
+
+</script>

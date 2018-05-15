@@ -1,0 +1,75 @@
+10
+
+dir
+503
+http://dev.tenwa.com.cn:8082/svn/TLS3.5/branches/culc2016/culcleasing/WebRoot/invoice
+http://dev.tenwa.com.cn:8082/svn/TLS3.5
+
+
+
+2017-11-14T08:21:50.419125Z
+501
+hucl
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+55a638a6-d3e6-1142-8ffa-839f6fa0e73f
+
+rent_fund_invoice
+dir
+
+fund_rent_invoice_export
+dir
+
+invoice_draw_new
+dir
+
+rent_invoice
+dir
+
+images
+dir
+
+
+
+add
+
+
+
+
+
+
+
+
+
+
+
+
+
+copied
+http://dev.tenwa.com.cn:8082/svn/TLS3.5/branches/culc2016/culcleasing/WebRoot/images
+482
+
+fund_rent_invoice_request
+dir
+
+invoice_draw
+dir
+
+invoice_back
+dir
+
+fund_rent_invoice_confirm
+dir
+

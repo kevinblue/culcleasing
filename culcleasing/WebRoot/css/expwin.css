@@ -1,0 +1,19 @@
+#cwTop,#cwCellTop,#cwToolbar{
+ height:0px;
+ display:none;
+}
+body,#cwMain,#cwCell,#cwCellContent,.cwDataList{
+	border:0px; 
+	padding:0px;
+	margin:0px;
+}
+body{
+ background-color:#EEEAEE;
+}
+.cwDLHead{
+	background-color:#E6F1F7;
+		height:20px;
+}
+#cwCell{
+background-color:#FFFFFF;
+}

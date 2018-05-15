@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/TLS3.5/!svn/ver/480/branches/culc2016/culcleasing/src/com/timer
+END
+GlobalReceiveInvokeTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/TLS3.5/!svn/ver/480/branches/culc2016/culcleasing/src/com/timer/GlobalReceiveInvokeTask.java
+END
+GlobalPaiedInvokeTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/TLS3.5/!svn/ver/480/branches/culc2016/culcleasing/src/com/timer/GlobalPaiedInvokeTask.java
+END
+GlobalStartRentInvokeTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/TLS3.5/!svn/ver/480/branches/culc2016/culcleasing/src/com/timer/GlobalStartRentInvokeTask.java
+END
+GlobalReceiveInvokeThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/TLS3.5/!svn/ver/489/branches/culc2016/culcleasing/src/com/timer/GlobalReceiveInvokeThread.java
+END
+GlobalPaiedInvokeThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/TLS3.5/!svn/ver/536/branches/culc2016/culcleasing/src/com/timer/GlobalPaiedInvokeThread.java
+END
+GlobalStartRentInvokeThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/TLS3.5/!svn/ver/489/branches/culc2016/culcleasing/src/com/timer/GlobalStartRentInvokeThread.java
+END
+GlobalConfirmInvokeTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/TLS3.5/!svn/ver/489/branches/culc2016/culcleasing/src/com/timer/GlobalConfirmInvokeTask.java
+END
+GlobalProjectEndInvokeTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/TLS3.5/!svn/ver/480/branches/culc2016/culcleasing/src/com/timer/GlobalProjectEndInvokeTask.java
+END
+GlobalInterestInvokeTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/TLS3.5/!svn/ver/480/branches/culc2016/culcleasing/src/com/timer/GlobalInterestInvokeTask.java
+END
+GlobalInterestSubsidyInvokeTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/TLS3.5/!svn/ver/480/branches/culc2016/culcleasing/src/com/timer/GlobalInterestSubsidyInvokeTask.java
+END
+GlobalConfirmInvokeThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/TLS3.5/!svn/ver/489/branches/culc2016/culcleasing/src/com/timer/GlobalConfirmInvokeThread.java
+END
+GlobalProjectEndInvokeThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/TLS3.5/!svn/ver/489/branches/culc2016/culcleasing/src/com/timer/GlobalProjectEndInvokeThread.java
+END
+GlobalInterestInvokeThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/TLS3.5/!svn/ver/489/branches/culc2016/culcleasing/src/com/timer/GlobalInterestInvokeThread.java
+END
+GlobalInterestSubsidyInvokeThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/TLS3.5/!svn/ver/489/branches/culc2016/culcleasing/src/com/timer/GlobalInterestSubsidyInvokeThread.java
+END
+GlobalFundPlanInvokeTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/TLS3.5/!svn/ver/480/branches/culc2016/culcleasing/src/com/timer/GlobalFundPlanInvokeTask.java
+END
+InvokeUtilTimer.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/TLS3.5/!svn/ver/480/branches/culc2016/culcleasing/src/com/timer/InvokeUtilTimer.java
+END
+GlobalFundPlanInvokeThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/TLS3.5/!svn/ver/489/branches/culc2016/culcleasing/src/com/timer/GlobalFundPlanInvokeThread.java
+END
