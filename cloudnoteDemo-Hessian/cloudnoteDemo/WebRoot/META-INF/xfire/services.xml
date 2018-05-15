@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans >
+    <service xmlns="http://xfire.codehaus.org/config/1.0">
+        <name>FundRequestERP</name>
+        <serviceClass>com.tarena.webservice.service.FundRequestERP</serviceClass>
+        <implementationClass>com.tarena.webservice.serviceImp.FundRequestERPImpl</implementationClass>
+    </service>
+    <service>  
+    <name>HelloService</name>  
+    <serviceClass>com.tarena.webservice.service.IHelloService</serviceClass>  
+    <implementationClass>com.tarena.webservice.serviceImp.HelloService</implementationClass>  
+</service>
+</beans>

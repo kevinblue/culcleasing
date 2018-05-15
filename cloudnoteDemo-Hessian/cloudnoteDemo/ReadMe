@@ -1,0 +1,35 @@
+这个用的是jdk7,,用jdk8会有问题
+
+javaCompiler  -Enable project special setting -user default --1.7
+
+
+####一、hession接口搭建步骤：
+1写一个接口和一个实现类
+2导入jar包  hessian-3.1.6.jar
+3在web.xml中配置
+
+<servlet>
+		<servlet-name>remote</servlet-name>
+		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+		<init-param>
+		<param-name>contextConfigLocation</param-name>
+		<param-value>classpath:hessian-servlet.xml</param-value>
+		</init-param>
+</servlet>
+
+	<servlet-mapping>
+		<servlet-name>remote</servlet-name>
+		<url-pattern>/remote/*</url-pattern>
+	</servlet-mapping>
+4.在hessian-servlet.xml中发布服务，也就是配置
+
+  <!-- 接口的具体实现类 -->  
+     <bean id="impl" class="com.tarena.hession.serviceImp.TestHessianServiceImpl" />  
+    <!-- 使用Spring的HessianServie做代理 -->  
+    <bean name="/testHessianService"  
+      class="org.springframework.remoting.caucho.HessianServiceExporter">  
+        <!-- service引用具体的实现实体Bean-->  
+        <property name="service" ref="impl" />  
+        <property name="serviceInterface" value="com.tarena.hession.service.TestHessianService" />  
+    </bean>
+#####二 
